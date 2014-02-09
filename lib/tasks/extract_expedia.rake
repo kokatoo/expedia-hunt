@@ -18,6 +18,28 @@ namespace :db do
 		p url
 
 	  json = JSON.load(open(url))
-	  p json
+	  json["searchResultsModel"]["offers"][0..5].each do |result|
+	  	begin
+	  		leg = result["legs"][0]
+	  		price = leg["price"]
+	  		p price["formattedTotalPrice"]
+
+	  		timelines = leg["timeline"]
+	  		timelines.each do |timeline|
+	  			if timeline.has_key?("carrier")
+	  				p timeline["carrier"]["airlineName"]
+	  				departure = timeline["departureAirport"]["longName"]
+	  				arrival = timeline["arrivalAirport"]["longName"]
+	  				p "From #{departure} to #{arrival}"
+	  			else
+	  				start_time = timeline["startTime"]
+	  				end_time = timeline["endTime"]
+	  				p "Layover #{start_time['dateLongStr']} #{start_time['time']} to #{end_time['dateLongStr']} #{end_time['time']}"
+	  			end
+	  		end
+	  	rescue Exception => e
+	  		puts e.message
+	  	end
+	  end
 	end
 end
