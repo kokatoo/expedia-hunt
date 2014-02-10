@@ -34,6 +34,8 @@ gem 'gretel'
 gem 'paperclip'
 gem 'aws-sdk'
 
+gem 'jquery-ui-rails'
+
 gem 'nokogiri'
 gem 'mechanize'
 gem 'yaml_db'

@@ -4,7 +4,7 @@ namespace :db do
 	desc "populating expedia"
 	task load_flights: :environment do
 		agent = Mechanize.new
-		agent.get("http://www.expedia.ca/Flights")
+		agent.get("http://www.expedia.com/Flights")
 
 		form = agent.page.form_with(class: 'flightOnly')
 		form["TripType"] = "RoundTrip"
@@ -15,7 +15,7 @@ namespace :db do
 
 		form.submit
 
-		url = "http://www.expedia.ca/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
+		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
 		puts "Flight URL: #{url}}"
 
 	  json = JSON.load(open(url))

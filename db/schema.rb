@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140209120247) do
+ActiveRecord::Schema.define(:version => 20140210135017) do
 
   create_table "flights", :force => true do |t|
     t.string   "url",                                       :null => false
@@ -21,8 +21,27 @@ ActiveRecord::Schema.define(:version => 20140209120247) do
     t.datetime "end",                                       :null => false
     t.string   "source"
     t.string   "destination"
+    t.integer  "search_id"
     t.datetime "created_at",                                :null => false
     t.datetime "updated_at",                                :null => false
+  end
+
+  add_index "flights", ["search_id"], :name => "index_flights_on_search_id"
+
+  create_table "searches", :force => true do |t|
+    t.string   "title",       :null => false
+    t.datetime "start",       :null => false
+    t.integer  "min",         :null => false
+    t.integer  "max",         :null => false
+    t.string   "source"
+    t.string   "destination"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  create_table "temps", :force => true do |t|
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "timelines", :force => true do |t|

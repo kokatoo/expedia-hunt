@@ -1,5 +1,6 @@
 ExpediaHunt::Application.routes.draw do
-  root to: "expedias#index"
 
-  resources "expedias"
+	root to: "searches#index"
+	resources :searches
+
 end

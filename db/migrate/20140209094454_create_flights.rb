@@ -10,7 +10,11 @@ class CreateFlights < ActiveRecord::Migration
     	t.string :source
     	t.string :destination
 
+    	t.references :search
+
       t.timestamps
     end
+
+    add_index :flights, :search_id
   end
 end
