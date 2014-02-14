@@ -5,10 +5,15 @@
   <div class="col-md-9 list-group searches">
     <% @searches.each do |search| %>
     <%= link_to search, class: "list-group-item" do %>
+    <div class="row">
+       <div class="col-md-3">
+         <div><strong><%= search.title %></strong></div>
+       </div>
+    </div>
     <div class="row search">
       <div class="col-md-3">
-        <div><strong><%= search.title %></strong></div>
         <div><strong>Start:</strong> <%= search.start.strftime("%b %d, %Y") %></div>
+        <div><strong>End:</strong> <%= search.end.strftime("%b %d, %Y") %></div>
       </div>
       <div class="col-md-2">
         <div><strong>Min:</strong> <%= search.min %> Days</div>

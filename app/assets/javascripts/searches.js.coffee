@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 $ ->
-	$("#datepicker").datepicker()
+	$(".datepicker").datepicker()
 
 	$(".searches .list-group-item").hover (->
 		$(".search .list-group-item").removeClass("active")

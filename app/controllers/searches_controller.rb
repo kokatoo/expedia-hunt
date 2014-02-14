@@ -9,6 +9,10 @@ class SearchesController < ApplicationController
 		@search = Search.new
 	end
 
+	def edit
+		@search = Search.find(params[:id])
+	end
+
 	def create
 		@search = Search.new(params[:search])
 
@@ -26,7 +30,7 @@ class SearchesController < ApplicationController
 
 		if @search.update_attributes(params[:search])
 			flash[:notice] = "Search has been updated"
-			redirect_to @car
+			redirect_to @search
 		else
 			flash[:alert] = "Search has not been updated"
 			render action: "edit"
@@ -36,7 +40,7 @@ class SearchesController < ApplicationController
 	def start
 		@search = Search.find(params[:id])
 
-		
+
 
 		redirect_to search
 	end
