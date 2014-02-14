@@ -35,6 +35,8 @@ gem 'paperclip'
 gem 'aws-sdk'
 
 gem 'jquery-ui-rails'
+gem 'less-rails'
+gem 'therubyracer'
 
 gem 'nokogiri'
 gem 'mechanize'

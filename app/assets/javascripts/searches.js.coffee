@@ -3,3 +3,11 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 $ ->
 	$("#datepicker").datepicker()
+
+	$(".searches .list-group-item").hover (->
+		$(".search .list-group-item").removeClass("active")
+		$(this).addClass("active")
+		return
+  ), ->
+		$(".searches .list-group-item").removeClass("active")
+		return

@@ -1,6 +1,12 @@
 require 'open-uri'
 
 namespace :db do
+	desc "load hints" 
+	task load_hints: :environment do
+		url = "http://suggest.expedia.com/hint/es/v2/ac/en_CA/shanghai?lob=FLIGHTS&format=json&dest=false"
+		html = open(url)
+		p html.read.scan(/\"l\":\"(.*?)\",\"ll\"/)
+	end
 	desc "populating expedia"
 	task load_flights: :environment do
 		agent = Mechanize.new

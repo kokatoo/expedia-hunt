@@ -1,0 +1,25 @@
+<div class="list-group search-top">
+	<a class="list-group-item active">
+		<div class="row">
+			<div class="col-md-3">
+				<div><strong><%= @search.title %></strong></div>
+				<div><strong>Start:</strong> <%= @search.start.strftime("%b %d, %Y") %></div>
+			</div>
+			<div class="col-md-2">
+				<div><strong>Min:</strong> <%= @search.min %> Days</div>
+				<div><strong>Max:</strong> <%= @search.max %> Days</div>
+			</div>
+			<div class="col-md-7">
+				<div><strong>Source:</strong> <%= @search.source %></div>
+				<div><strong>Destination:</strong> <%= @search.destination %></div>
+			</div>
+		</div>
+	</a>
+</div>
+
+<div class="row start-btn">
+	<%= form_for [@search, @flight] do %>
+	  <button type="submit" class="btn btn-success pull-right">Start</button>
+	<% end %>
+	
+</div>
