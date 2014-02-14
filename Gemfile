@@ -37,6 +37,7 @@ gem 'aws-sdk'
 gem 'jquery-ui-rails'
 gem 'less-rails'
 gem 'therubyracer'
+gem 'jquery_datepicker'
 
 gem 'nokogiri'
 gem 'mechanize'
