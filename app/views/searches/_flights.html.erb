@@ -16,7 +16,10 @@
 						<% else %>
 						Direct
 						<% end %>
-						<%= flight.url %>
+						<div class="pull-right">
+						<%= link_to "Link", flight.url %>							
+						</div>
+
 					</strong>
 				</div>
 				<div class="panel-body">
