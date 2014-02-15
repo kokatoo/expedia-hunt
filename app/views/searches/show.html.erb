@@ -23,5 +23,13 @@
 </div>
 
 <div class="row start-btn">
-	<button type="submit" class="btn btn-success pull-right">Start</button>
+	<%= form_for @search, url: start_search_path(@search), method: :post do %>
+
+	  <button type="submit" class="btn btn-success pull-right">Start</button>
+	<% end %>
 </div>
+
+<% @flights.each do |flight| %>
+
+
+<% end %>
