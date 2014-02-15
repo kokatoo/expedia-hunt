@@ -42,9 +42,9 @@ class SearchesController < ApplicationController
 
 		agent = Mechanize.new
 		agent.get("http://www.expedia.com/Flights")
-		agent.get("http://www.expedia.com/Flights")
+		page = agent.click(agent.page.link_with(:text => /Flights/))
 
-		form = agent.page.form_with(class: 'flightOnly')
+		form = page.form_with(class: 'flightOnly')
 		form["TripType"] = "RoundTrip"
 		form["FrAirport"] = @search.source
 		form["ToAirport"] = @search.destination
