@@ -44,10 +44,6 @@ class SearchesController < ApplicationController
 		agent.get("http://www.expedia.com/Flights")
 
 		form = agent.page.form_with(class: 'flightOnly')
-		puts "--------"
-		p form
-		p agent.cookie_jar.jar
-		return
 		form["TripType"] = "RoundTrip"
 		form["FrAirport"] = @search.source
 		form["ToAirport"] = @search.destination
@@ -56,8 +52,6 @@ class SearchesController < ApplicationController
 
 		form.submit
 
-		puts "=================="
-		p agent.page
 		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
 		puts "Flight URL: #{url}}"
 

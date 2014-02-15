@@ -1,6 +1,28 @@
 require 'open-uri'
 
 namespace :db do
+	desc "update search url"
+	task update_url: :environment do
+		Search.all.each do |search|
+			if search.url.blank?
+				agent = Mechanize.new
+				agent.get("http://www.expedia.com/Flights")
+
+				form = agent.page.form_with(class: 'flightOnly')
+				form["TripType"] = "RoundTrip"
+				form["FrAirport"] = "Shanghai, China (SHA-All Airports)"
+				form["ToAirport"] = "Vancouver, BC, Canada (YVR-All Airports)"
+				form["FromDate"] = "27/02/2014"
+				form["ToDate"] = "26/03/2014"
+
+				form.submit
+				puts "=========="
+				p agent.page
+				url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
+			end
+		end
+	end
+
 	desc "load hints" 
 	task load_hints: :environment do
 		url = "http://suggest.expedia.com/hint/es/v2/ac/en_CA/shanghai?lob=FLIGHTS&format=json&dest=false"
