@@ -45,10 +45,15 @@ class SearchesController < ApplicationController
 
 		form = agent.page.form_with(class: 'flightOnly')
 		form["TripType"] = "RoundTrip"
-		form["FrAirport"] = @search.source
-		form["ToAirport"] = @search.destination
-		form["FromDate"] = @search.start.strftime("%d/%m/%Y")
-		form["ToDate"] = (@search.start + @search.min.days).strftime("%d/%m/%Y")
+		# form["FrAirport"] = @search.source
+		# form["ToAirport"] = @search.destination
+		# form["FromDate"] = @search.start.strftime("%d/%m/%Y")
+		# form["ToDate"] = (@search.start + @search.min.days).strftime("%d/%m/%Y")
+		form["TripType"] = "RoundTrip"
+		form["FrAirport"] = "Shanghai, China (SHA-All Airports)"
+		form["ToAirport"] = "Vancouver, BC, Canada (YVR-All Airports)"
+		form["FromDate"] = "27/02/2014"
+		form["ToDate"] = "26/03/2014"
 
 		form.submit
 
