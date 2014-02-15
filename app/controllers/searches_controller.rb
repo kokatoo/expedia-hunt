@@ -55,7 +55,7 @@ class SearchesController < ApplicationController
 
 		puts "=================="
 		p agent.page
-		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
+		url = "http://www.expedia.com/Flight-Search-Outbound?#{page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
 		puts "Flight URL: #{url}}"
 
 	  json = JSON.load(open(url))
