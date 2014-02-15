@@ -6,7 +6,7 @@ namespace :db do
 		Search.all.each do |search|
 			if true#search.url.blank?
 				agent = Mechanize.new
-				agent.get("http://www.expedia.com/Flights?rfrr=Header.POSRedirect.www.expedia.ca%2FFlights")#{}"http://www.expedia.com/Flights")
+				agent.get("http://www.expedia.com.sg")#{}"http://www.expedia.com/Flights")
 
 				form = agent.page.form_with(class: 'flightOnly')
 				form["TripType"] = "RoundTrip"
