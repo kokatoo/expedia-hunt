@@ -42,6 +42,7 @@ class SearchesController < ApplicationController
 
 		agent = Mechanize.new
 		agent.get("http://www.expedia.com/Flights")
+		agent.get("http://www.expedia.com/Flights")
 
 		form = agent.page.form_with(class: 'flightOnly')
 		form["TripType"] = "RoundTrip"
