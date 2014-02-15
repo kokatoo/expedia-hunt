@@ -38,8 +38,6 @@ class SearchesController < ApplicationController
 	end
 
 	def start
-		puts "========"
-		p params
 		@search = Search.find(params[:id])
 
 		agent = Mechanize.new
@@ -67,50 +65,46 @@ class SearchesController < ApplicationController
 	  	flight.source = form["FrAirport"]
 	  	flight.destination = form["ToAirport"]
 
-	  	begin
-	  		leg = result["legs"][0]
-	  		flight.price = price["offerPrice"]
-	  		flight.currency = price["localizedCurrencyCode"]
+  		leg = result["legs"][0]
+  		flight.price = leg["price"]["offerPrice"]
+  		flight.currency = leg["price"]["localizedCurrencyCode"]
 
-	  		timelines = leg["timeline"]
-	  		timelines.each do |timeline|
+  		timelines = leg["timeline"]
+  		timelines.each do |timeline|
 
-	  			tl = Timeline.new
+  			tl = Timeline.new
 
-	  			if timeline.has_key?("carrier")
-	  				tl.layover = false
+  			if timeline.has_key?("carrier")
+  				tl.layover = false
 
-	  				tl.airline = timeline["carrier"]["airlineName"]	  		
-	  				tl.departure = timeline["departureAirport"]["longName"]
-	  				tl.arrival = timeline["arrivalAirport"]["longName"]
+  				tl.airline = timeline["carrier"]["airlineName"]	  		
+  				tl.departure = timeline["departureAirport"]["longName"]
+  				tl.arrival = timeline["arrivalAirport"]["longName"]
 
-	  				start_time = timeline["departureTime"]
-	  				end_time = timeline["arrivalTime"]
+  				start_time = timeline["departureTime"]
+  				end_time = timeline["arrivalTime"]
 
-	  				tl.start = DateTime.parse("#{start_time["dateLongStr"]} #{start_time['time']}")
-	  				tl.end = DateTime.parse("#{timeline["end_time"]} #{end_time['time']}")
-	  			else
-	  				tl.layover = true
-	  				tl.departure = timeline["airport"]["longName"]
-	  				tl.arrival = timeline["airport"]["longName"]
+  				tl.start = DateTime.parse("#{start_time["dateLongStr"]} #{start_time['time']}")
+  				tl.end = DateTime.parse("#{end_time["dateLongStr"]} #{end_time['time']}")
+  			else
+  				tl.layover = true
+  				tl.departure = timeline["airport"]["longName"]
+  				tl.arrival = timeline["airport"]["longName"]
 
-	  				start_time = timeline["startTime"]
-	  				end_time = timeline["endTime"]
+  				start_time = timeline["startTime"]
+  				end_time = timeline["endTime"]
 
-	  				tl.start = DateTime.parse("#{start_time["dateLongStr"]} #{start_time['time']}")
-	  				tl.end = DateTime.parse("#{timeline["end_time"]} #{end_time['time']}")
-
-	  				puts "Layover"
-	  				puts "#{tl.start} to #{tl.end}"
-	  			end
-	  			tl.save!
-	  			flight.timelines << tl
-	  		end
-	  		flight.save!
-	  		@search.flights << flight
-	  	rescue Exception => e
-	  		puts e.message
-	  	end
+  				tl.start = DateTime.parse("#{start_time["dateLongStr"]} #{start_time['time']}")
+  				tl.end = DateTime.parse("#{end_time["dateLongStr"]} #{end_time['time']}")
+  			end
+  			tl.save!
+  			flight.timelines << tl
+  		end
+  		flight.save!
+  		@search.flights << flight
+  		p @search.flights
+  		p flight
+  		@search.save!
 	  end
 
 		redirect_to @search

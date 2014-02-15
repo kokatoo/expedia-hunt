@@ -1,0 +1,49 @@
+<div class="list-group flights">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			From <strong><%= @search.start.strftime("%b %d, %Y (%a)") %></strong>
+			to <strong><%= @search.end.strftime("%b %d, %Y (%a)") %></strong>
+		</div>
+		<div class="panel-body">
+			<% @search.flights.each do |flight| %>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<strong>
+						<%= flight.timelines.first.airline %>, 
+						<%= number_to_currency flight.price, precision: 0 %> <%= flight.currency %>, 
+						<% if flight.num_layovers > 0 %>
+						<%= flight.num_layovers %> Layover(s)
+						<% else %>
+						Direct
+						<% end %>
+					</strong>
+				</div>
+				<div class="panel-body">
+					<div class="list-group">
+						<% flight.timelines.each do |timeline| %>
+						<a class="list-group-item flight">
+							<div class="row">
+								<div class="col-md-2">
+									<% if timeline.layover %>
+									<strong>Layover</strong>
+									<% else %>
+									<strong><%= timeline.airline %></strong>
+									<% end %>
+								</div>
+								<div class="col-md-4">
+									<div><strong>Start:</strong> <%= timeline.start.strftime("%b %d, %Y (%a) %H:%M") %></div>
+									<div><strong>End:</strong> <%= timeline.end.strftime("%b %d, %Y (%a) %H:%M") %></div>
+								</div>
+								<div class="col-md-6">
+									<div><strong>Departure:</strong> <%= timeline.departure %></div>
+									<div><strong>Arrival:</strong> <%= timeline.arrival %></div>
+								</div>
+							</div>
+						</a>
+						<% end %>
+					</div>
+				</div>
+			</div>
+			<% end %>
+		</div>
+</div>

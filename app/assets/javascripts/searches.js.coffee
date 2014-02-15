@@ -11,3 +11,14 @@ $ ->
   ), ->
 		$(".searches .list-group-item").removeClass("active")
 		return
+
+	$(".flights .panel").mouseenter (->
+		$(this).addClass("panel-primary"))
+	$(".flights .panel").mouseleave (->
+		$(this).removeClass("panel-primary"))
+
+	$(".flights .flight").mouseenter (->
+		$(this).addClass("active"))
+	$(".flights .flight").mouseleave (->
+		$(this).removeClass("active"))
+
