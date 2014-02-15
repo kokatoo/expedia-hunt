@@ -41,7 +41,7 @@ class SearchesController < ApplicationController
 		@search = Search.find(params[:id])
 
 		agent = Mechanize.new
-		agent.get("http://www.expedia.com/Flights")
+		agent.get("http://www.expedia.com.sg/Flights")
 
 		form = agent.page.form_with(class: 'flightOnly')
 		form["TripType"] = "RoundTrip"
@@ -53,7 +53,6 @@ class SearchesController < ApplicationController
 		form.submit
 
 		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
-		puts "Flight URL: #{url}}"
 
 	  json = JSON.load(open(url))
 
