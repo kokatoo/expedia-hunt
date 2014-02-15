@@ -42,9 +42,12 @@ class SearchesController < ApplicationController
 
 		agent = Mechanize.new
 		agent.get("http://www.expedia.com/Flights")
-		page = agent.click(agent.page.link_with(:text => /Flights/))
 
-		form = page.form_with(class: 'flightOnly')
+		form = agent.page.form_with(class: 'flightOnly')
+		puts "--------"
+		p form
+		p agent.cookie_jar.jar
+		return
 		form["TripType"] = "RoundTrip"
 		form["FrAirport"] = @search.source
 		form["ToAirport"] = @search.destination
@@ -55,7 +58,7 @@ class SearchesController < ApplicationController
 
 		puts "=================="
 		p agent.page
-		url = "http://www.expedia.com/Flight-Search-Outbound?#{page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
+		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
 		puts "Flight URL: #{url}}"
 
 	  json = JSON.load(open(url))
