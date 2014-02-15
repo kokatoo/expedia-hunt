@@ -4,7 +4,7 @@ namespace :db do
 	desc "update search url"
 	task update_url: :environment do
 		Search.all.each do |search|
-			if search.url.blank?
+			if true#search.url.blank?
 				agent = Mechanize.new
 				agent.get("http://www.expedia.com/Flights")
 
