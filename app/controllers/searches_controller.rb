@@ -38,7 +38,9 @@ class SearchesController < ApplicationController
 	end
 
 	def start
-		@search = Search.find(params[:id])
+		@old_search = Search.find(params[:id])
+		@search = @old_search.dup
+		@search.version = @old_search.version += 1
 
 		agent = Mechanize.new
 		# note the date format is different
@@ -48,7 +50,6 @@ class SearchesController < ApplicationController
 		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
 		json = JSON.load(open(url))
 
-		@search.flights = []
 	  json["searchResultsModel"]["offers"][0..5].each_with_index do |result, index|
 	  	flight = Flight.new()
 	  	flight.url = url
