@@ -41,16 +41,15 @@ class SearchesController < ApplicationController
 		@search = Search.find(params[:id])
 
 		agent = Mechanize.new
-		agent.get("http://www.expedia.com.sg/Flights")
+		# Shanghai,+China+(PVG-Pudong+Intl.)
+		# Vancouver,+BC,+Canada+(YVR-All+Airports)
+		# 05/26/2014
+		# 06/09/2014
+		flight_url = "http://www.expedia.com/Flight-Search-All?action=FlightSearchAll%40searchFlights&origref=www.expedia.com%2FFlight-Search-All&inpFlightRouteType=2&inpDepartureLocations=Shanghai%2C+China+%28PVG-Pudong+Intl.%29&inpArrivalLocations=Vancouver%2C+BC%2C+Canada+%28YVR-All+Airports%29&inpDepartureDates=05%2F26%2F2014&inpArrivalDates=06%2F09%2F2014&inpAdultCounts=1&inpChildCounts=0&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpInfants=2&inpFlightAirlinePreference=&inpFlightClass=3"
 
-		form = agent.page.form_with(class: 'flightOnly')
-		form["TripType"] = "RoundTrip"
-		form["FrAirport"] = @search.source
-		form["ToAirport"] = @search.destination
-		form["FromDate"] = @search.start.strftime("%d/%m/%Y")
-		form["ToDate"] = (@search.start + @search.min.days).strftime("%d/%m/%Y")
-
-		form.submit
+		agent.get(flight_url)
+		puts "========="
+		p agent.page
 
 		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
 
@@ -59,10 +58,10 @@ class SearchesController < ApplicationController
 	  json["searchResultsModel"]["offers"][0..5].each_with_index do |result, index|
 	  	flight = Flight.new()
 	  	flight.url = url
-	  	flight.start = form["FromDate"]
-	  	flight.end = form["ToDate"]
-	  	flight.source = form["FrAirport"]
-	  	flight.destination = form["ToAirport"]
+	  	flight.start = @search.start.strftime("%d/%m/%Y")
+	  	flight.end = (@search.start + @search.min.days).strftime("%d/%m/%Y")
+	  	flight.source = @search.source
+	  	flight.destination = @search.destination
 
   		leg = result["legs"][0]
   		flight.price = leg["price"]["offerPrice"]
