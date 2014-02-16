@@ -41,15 +41,10 @@ class SearchesController < ApplicationController
 		@search = Search.find(params[:id])
 
 		agent = Mechanize.new
-		# Shanghai,+China+(PVG-Pudong+Intl.)
-		# Vancouver,+BC,+Canada+(YVR-All+Airports)
-		# 05/26/2014
-		# 06/09/2014
-		flight_url = "http://www.expedia.com/Flight-Search-All?action=FlightSearchAll%40searchFlights&origref=www.expedia.com%2FFlight-Search-All&inpFlightRouteType=2&inpDepartureLocations=Shanghai%2C+China+%28PVG-Pudong+Intl.%29&inpArrivalLocations=Vancouver%2C+BC%2C+Canada+%28YVR-All+Airports%29&inpDepartureDates=05%2F26%2F2014&inpArrivalDates=06%2F09%2F2014&inpAdultCounts=1&inpChildCounts=0&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpInfants=2&inpFlightAirlinePreference=&inpFlightClass=3"
+		# note the date format is different
+		flight_url = "http://www.expedia.com/Flight-Search-All?action=FlightSearchAll%40searchFlights&origref=www.expedia.com%2FFlight-Search-All&inpFlightRouteType=2&inpDepartureLocations=#{CGI.escape @search.source}&inpArrivalLocations=#{CGI.escape @search.destination}&inpDepartureDates=#{CGI.escape @search.start.strftime("%m/%d/%Y")}&inpArrivalDates=#{CGI.escape (@search.start + @search.min.days).strftime("%m/%d/%Y")}&inpAdultCounts=1&inpChildCounts=0&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpInfants=2&inpFlightAirlinePreference=&inpFlightClass=3"
 
 		agent.get(flight_url)
-		puts "========="
-		p agent.page
 
 		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
 
