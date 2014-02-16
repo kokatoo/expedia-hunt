@@ -60,9 +60,9 @@ class Search < ActiveRecord::Base
 		leg = result["legs"][0]
 
 		timelines = leg["timeline"]
-  		timelines.each do |timeline|
-  			flight.timelines << load_timeline(timeline)
-  		end
+		timelines.each do |timeline|
+			flight.timelines << load_timeline(timeline)
+		end
 	end
 
 	def load_flights
