@@ -6,19 +6,22 @@ $ ->
 
 	$(".searches .list-group-item").hover (->
 		$(".search .list-group-item").removeClass("active")
-		$(this).addClass("active")
+		$(this).addClass("info")
 		return
   ), ->
 		$(".searches .list-group-item").removeClass("active")
 		return
 
 	$(".flights .panel").mouseenter (->
-		$(this).addClass("panel-primary"))
+		$(this).addClass("panel-info"))
 	$(".flights .panel").mouseleave (->
-		$(this).removeClass("panel-primary"))
+		$(this).removeClass("panel-info"))
 
 	$(".flights .flight").mouseenter (->
 		$(this).addClass("active"))
 	$(".flights .flight").mouseleave (->
 		$(this).removeClass("active"))
+
+	$(".flights .panel-heading").click(->
+		$(this).siblings(".panel-body").toggle("show"))
 
