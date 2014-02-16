@@ -5,7 +5,7 @@ class Search < ActiveRecord::Base
 
 	def self.duplicate(search)
 		search_dup = search.dup
-		search_dup.version = search.version += 1
+		search_dup.version = search.version + 1
 
 		search_dup
 	end
