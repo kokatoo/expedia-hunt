@@ -43,13 +43,12 @@ class SearchesController < ApplicationController
 		agent = Mechanize.new
 		# note the date format is different
 		flight_url = "http://www.expedia.com/Flight-Search-All?action=FlightSearchAll%40searchFlights&origref=www.expedia.com%2FFlight-Search-All&inpFlightRouteType=2&inpDepartureLocations=#{CGI.escape @search.source}&inpArrivalLocations=#{CGI.escape @search.destination}&inpDepartureDates=#{CGI.escape @search.start.strftime("%m/%d/%Y")}&inpArrivalDates=#{CGI.escape (@search.start + @search.min.days).strftime("%m/%d/%Y")}&inpAdultCounts=1&inpChildCounts=0&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpChildAges=-1&inpInfants=2&inpFlightAirlinePreference=&inpFlightClass=3"
-
 		agent.get(flight_url)
 
 		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
+		json = JSON.load(open(url))
 
-	  json = JSON.load(open(url))
-
+		@search.flights = []
 	  json["searchResultsModel"]["offers"][0..5].each_with_index do |result, index|
 	  	flight = Flight.new()
 	  	flight.url = url
@@ -63,6 +62,7 @@ class SearchesController < ApplicationController
   		flight.currency = leg["price"]["localizedCurrencyCode"]
 
   		timelines = leg["timeline"]
+  		flight.timelines = []
   		timelines.each do |timeline|
 
   			tl = Timeline.new
@@ -91,6 +91,7 @@ class SearchesController < ApplicationController
   				tl.end = DateTime.parse("#{end_time["dateLongStr"]} #{end_time['time']}")
   			end
   			tl.save!
+
   			flight.timelines << tl
   		end
   		flight.save!

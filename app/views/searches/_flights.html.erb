@@ -2,7 +2,8 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			From <strong><%= @search.start.strftime("%b %d, %Y (%a)") %></strong>
-			to <strong><%= @search.end.strftime("%b %d, %Y (%a)") %></strong>
+			to <strong><%= (@search.start + @search.min.days).strftime("%b %d, %Y (%a)") %></strong>, 
+			<strong><%= @search.min %> Days</strong>
 		</div>
 		<div class="panel-body">
 			<% @search.flights.each do |flight| %>
@@ -12,14 +13,10 @@
 						<%= flight.timelines.first.airline %>, 
 						<%= number_to_currency flight.price, precision: 0 %> <%= flight.currency %>, 
 						<% if flight.num_layovers > 0 %>
-						<%= flight.num_layovers %> Layover(s)
+						<%= flight.num_layovers %> Stop(s)
 						<% else %>
 						Direct
 						<% end %>
-						<div class="pull-right">
-						<%= link_to "Link", flight.url %>							
-						</div>
-
 					</strong>
 				</div>
 				<div class="panel-body">
