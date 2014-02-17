@@ -50,5 +50,15 @@ class SearchesController < ApplicationController
 
 	def show
 		@search = Search.find(params[:id])
+
+		prices = @search.flights.map(&:price)
+		@min = prices.min
+		@max = prices.max
+		
+		@currency = ""
+		flights = @search.flights
+		if flights.size > 0
+			@currency = @search.flights.first.currency
+		end
 	end
 end

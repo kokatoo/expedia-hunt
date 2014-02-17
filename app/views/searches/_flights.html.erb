@@ -4,6 +4,10 @@
 			From <strong><%= @search.start.strftime("%b %d, %Y (%a)") %></strong>
 			to <strong><%= (@search.start + @search.min.days).strftime("%b %d, %Y (%a)") %></strong>, 
 			<strong><%= @search.min %> Days</strong>
+
+			<div class="pull-right">
+				<strong><%= number_to_currency @min, precision: 0 %> - <%= number_to_currency @max, precision: 0 %> <%= @currency %></strong>
+			</div>
 		</div>
 		<div class="panel-body">
 			<% @search.flights.each do |flight| %>
@@ -11,13 +15,15 @@
 				<div class="panel-heading">
 					<strong>
 						<%= flight.timelines.first.airline %>, 
-						<%= number_to_currency flight.price, precision: 0 %> <%= flight.currency %>, 
 						<% if flight.num_layovers > 0 %>
 						<%= flight.num_layovers %> Stop(s)
 						<% else %>
 						Direct
 						<% end %>
 					</strong>
+					<div class="pull-right">
+						<strong><%= number_to_currency flight.price, precision: 0 %> <%= flight.currency %></strong>
+					</div>
 				</div>
 				<div class="panel-body">
 					<div class="list-group">
