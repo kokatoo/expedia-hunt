@@ -11,22 +11,24 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140216131515) do
+ActiveRecord::Schema.define(:version => 20140217161401) do
 
   create_table "flights", :force => true do |t|
-    t.string   "url",                                       :null => false
-    t.decimal  "price",       :precision => 8, :scale => 2, :null => false
-    t.string   "currency",                                  :null => false
-    t.datetime "start",                                     :null => false
-    t.datetime "end",                                       :null => false
+    t.string   "url",                                         :null => false
+    t.decimal  "price",         :precision => 8, :scale => 2, :null => false
+    t.string   "currency",                                    :null => false
+    t.datetime "start",                                       :null => false
+    t.datetime "end",                                         :null => false
     t.string   "source"
     t.string   "destination"
     t.integer  "search_id"
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
+    t.datetime "created_at",                                  :null => false
+    t.datetime "updated_at",                                  :null => false
+    t.integer  "sub_search_id"
   end
 
   add_index "flights", ["search_id"], :name => "index_flights_on_search_id"
+  add_index "flights", ["sub_search_id"], :name => "index_flights_on_sub_search_id"
 
   create_table "searches", :force => true do |t|
     t.string   "title",                      :null => false
@@ -40,6 +42,18 @@ ActiveRecord::Schema.define(:version => 20140216131515) do
     t.datetime "end"
     t.integer  "version",     :default => 0
   end
+
+  create_table "sub_searches", :force => true do |t|
+    t.datetime "start",       :null => false
+    t.datetime "end",         :null => false
+    t.string   "source"
+    t.string   "destination"
+    t.integer  "search_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "sub_searches", ["search_id"], :name => "index_sub_searches_on_search_id"
 
   create_table "temps", :force => true do |t|
     t.datetime "created_at", :null => false

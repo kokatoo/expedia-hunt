@@ -22,6 +22,7 @@ $ ->
 	$(".flights .flight").mouseleave (->
 		$(this).removeClass("active"))
 
+	$(".flights .panel-body").toggle("show")
 	$(".flights .panel-heading").click(->
 		$(this).siblings(".panel-body").toggle("show"))
 

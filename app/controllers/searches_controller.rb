@@ -41,7 +41,18 @@ class SearchesController < ApplicationController
 		@old_search = Search.find(params[:id])
 		@search = Search.duplicate(@old_search)
 
-		@search.load_flights()
+		(@search.min..@search.max).each do |num|
+			sub_search = SubSearch.new()
+			sub_search.start = @search.start
+			sub_search.end = @search.start + num.days
+			sub_search.source = @search.source
+			sub_search.destination = @search.destination
+
+			sub_search.load_flights()
+			sub_search.save!
+
+			@search.sub_searches << sub_search
+		end
 
 		@search.save!
 
@@ -51,14 +62,16 @@ class SearchesController < ApplicationController
 	def show
 		@search = Search.find(params[:id])
 
-		prices = @search.flights.map(&:price)
-		@min = prices.min
-		@max = prices.max
+		@min_max_prices = []
+		@search.sub_searches.each do |sub_search|
+			prices = sub_search.flights.pluck("price")
+			@min_max_prices << [prices.min, prices.max]
+		end
 		
 		@currency = ""
 		flights = @search.flights
 		if flights.size > 0
-			@currency = @search.flights.first.currency
+			@currency = @search.sub_searches.first.flights.first.currency
 		end
 	end
 end
