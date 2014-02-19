@@ -5,7 +5,7 @@
 		<div class="panel-heading">
 			From <strong><%= sub_search.start.strftime("%b %d, %Y (%a)") %></strong>
 			to <strong><%= sub_search.end.strftime("%b %d, %Y (%a)") %></strong>, 
-			<strong><%= sub_search.end.to_date - sub_search.start.to_date %> Days</strong>
+			<strong><%= (sub_search.end.to_date - sub_search.start.to_date).to_i %> Days</strong>
 
 			<div class="pull-right">
 				<strong><%= number_to_currency sub_search.min_price, precision: 0 %> - <%= number_to_currency sub_search.max_price, precision: 0 %> <%= @currency %></strong>
