@@ -49,6 +49,10 @@ class SearchesController < ApplicationController
 			sub_search.destination = @search.destination
 
 			sub_search.load_flights()
+			prices = sub_search.flights.pluck("price")
+			sub_search.min_price = prices.min
+			sub_search.max_price = prices.max
+
 			sub_search.save!
 
 			@search.sub_searches << sub_search
@@ -61,13 +65,8 @@ class SearchesController < ApplicationController
 
 	def show
 		@search = Search.find(params[:id])
+		@search.sub_searches.sort! { |x, y| x.min_price <=> y.min_price }
 
-		@min_max_prices = []
-		@search.sub_searches.each do |sub_search|
-			prices = sub_search.flights.pluck("price")
-			@min_max_prices << [prices.min, prices.max]
-		end
-		
 		@currency = ""
 		flights = @search.flights
 		if flights.size > 0

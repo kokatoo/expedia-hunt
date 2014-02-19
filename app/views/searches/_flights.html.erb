@@ -8,7 +8,7 @@
 			<strong><%= sub_search.end.to_date - sub_search.start.to_date %> Days</strong>
 
 			<div class="pull-right">
-				<strong><%= number_to_currency @min_max_prices[idx][0], precision: 0 %> - <%= number_to_currency @min_max_prices[idx][1], precision: 0 %> <%= @currency %></strong>
+				<strong><%= number_to_currency sub_search.min_price, precision: 0 %> - <%= number_to_currency sub_search.max_price, precision: 0 %> <%= @currency %></strong>
 			</div>
 		</div>
 		<div class="panel-body">

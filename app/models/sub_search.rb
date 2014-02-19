@@ -1,5 +1,5 @@
 class SubSearch < ActiveRecord::Base
-  attr_accessible :start, :end, :source, :destination
+  attr_accessible :start, :end, :source, :destination, :min_price, :max_price
 
   belongs_to :search
   has_many :flights
