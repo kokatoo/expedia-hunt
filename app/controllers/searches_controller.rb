@@ -67,10 +67,6 @@ class SearchesController < ApplicationController
 		@search = Search.find(params[:id])
 		@search.sub_searches.sort! { |x, y| x.min_price <=> y.min_price }
 
-		@currency = ""
-		flights = @search.flights
-		if flights.size > 0
-			@currency = @search.sub_searches.first.flights.first.currency
-		end
+		@currency = "USD"
 	end
 end
