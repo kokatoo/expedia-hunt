@@ -12,7 +12,7 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<% sub_search.flights.each do |flight| %>
+			<% sub_search.flights.sort_by(&:price).each do |flight| %>
 			<div class="panel panel-default">
 			  	<div class="panel-heading">
 			  		<strong>
