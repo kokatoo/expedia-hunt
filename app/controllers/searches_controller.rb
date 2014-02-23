@@ -1,4 +1,5 @@
 require 'will_paginate/array'
+require 'resque'
 
 class SearchesController < ApplicationController
 	def index
@@ -39,28 +40,10 @@ class SearchesController < ApplicationController
 
 	def start
 		@old_search = Search.find(params[:id])
-		@search = Search.duplicate(@old_search)
 
-		(@search.min..@search.max).each do |num|
-			sub_search = SubSearch.new()
-			sub_search.start = @search.start
-			sub_search.end = @search.start + num.days
-			sub_search.source = @search.source
-			sub_search.destination = @search.destination
+		Resque.enqueue(ExpediaSearch, @old_search.id)
 
-			sub_search.load_flights()
-			prices = sub_search.flights.pluck("price")
-			sub_search.min_price = prices.min
-			sub_search.max_price = prices.max
-
-			sub_search.save!
-
-			@search.sub_searches << sub_search
-		end
-
-		@search.save!
-
-		redirect_to @search
+		redirect_to @old_search
 	end
 
 	def show

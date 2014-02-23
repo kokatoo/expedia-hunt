@@ -33,6 +33,7 @@ gem 'jquery-rails'
 gem 'gretel'
 gem 'paperclip'
 gem 'aws-sdk'
+gem 'resque', "~> 1.22.0"
 
 gem 'jquery-ui-rails'
 gem 'less-rails'
