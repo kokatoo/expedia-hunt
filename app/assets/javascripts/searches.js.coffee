@@ -25,3 +25,8 @@ $ ->
 	$(".flights .panel-heading").click(->
 		$(this).siblings(".panel-body").toggle("show"))
 
+
+	if $(".flights .panel-heading").size() > 0
+		$(".flights .panel-heading").first().click()
+		if $(".flights .panel-body").first().find(".panel-heading").size() > 0
+			$(".flights .panel-body").first().find(".panel-heading").first().click()
