@@ -34,6 +34,7 @@ gem 'gretel'
 gem 'paperclip'
 gem 'aws-sdk'
 gem 'resque', "~> 1.22.0", require: "resque/server"
+gem 'redis'
 
 gem 'jquery-ui-rails'
 gem 'less-rails'
