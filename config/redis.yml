@@ -1,6 +1,6 @@
 defaults: &defaults
-host: redis://rediscloud:7Gpc1rQNWtVAiShs@pub-redis-18296.us-east-1-3.2.ec2.garantiadata.com
-port: 18296
+host: localhost
+port: 6379
 
 development:
 <<: *defaults
