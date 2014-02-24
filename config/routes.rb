@@ -9,4 +9,6 @@ ExpediaHunt::Application.routes.draw do
 			post 'start'
 		end
 	end
+
+	mount Resque::Server, at: "/resque"
 end
