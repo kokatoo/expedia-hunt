@@ -68,12 +68,14 @@ class SubSearch < ActiveRecord::Base
 		url = "http://www.expedia.com/Flight-Search-Outbound?#{agent.page.search('form#flightResultForm')[0]['action'].split('?')[1]}"
 		json = JSON.load(open(url))
 
-	  json["searchResultsModel"]["offers"][0..6].each_with_index do |result, index|
-	  	flight = load_flight(result, url)
-	  	load_timelines(flight, result)
+		if json && json["searchResultsModel"]
+			json["searchResultsModel"]["offers"][0..6].each_with_index do |result, index|
+				flight = load_flight(result, url)
+				load_timelines(flight, result)
 
-  		flight.save!
-  		self.flights << flight
-	  end
+				flight.save!
+				self.flights << flight
+			end
+		end
 	end
 end

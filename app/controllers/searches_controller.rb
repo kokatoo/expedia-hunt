@@ -39,11 +39,11 @@ class SearchesController < ApplicationController
 	end
 
 	def start
-		@old_search = Search.find(params[:id])
+		@search = Search.find(params[:id])
 
-		Resque.enqueue(ExpediaSearch, @old_search.id)
+		Resque.enqueue(ExpediaSearch, @search.id)
 
-		redirect_to @old_search
+		redirect_to @search
 	end
 
 	def show
