@@ -3,7 +3,7 @@ require 'resque'
 
 class SearchesController < ApplicationController
 	def index
-		@searches = Search.all
+		@searches = Search.searches
 	end
 
 	def new

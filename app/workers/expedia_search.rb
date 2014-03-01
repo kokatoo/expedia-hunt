@@ -5,9 +5,15 @@ class ExpediaSearch
 
 	def self.perform(search_id)
 
-		old_search = Search.find(search_id)
-		search = Search.duplicate(old_search)
+		search = Search.find(search_id)
 		
+		old_search = Search.duplicate(search)
+		old_search.user = false
+		old_search.save!
+
+		search.sub_searches.clear
+		search.searches << old_search
+
 		(search.min..search.max).each do |num|
 			sub_search = SubSearch.new()
 			sub_search.start = search.start
