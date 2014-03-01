@@ -41,7 +41,17 @@ class SearchesController < ApplicationController
 	def start
 		@search = Search.find(params[:id])
 
-		Resque.enqueue(ExpediaSearch, @search.id)
+		old_search = Search.duplicate(@search)
+		old_search.save!
+
+		@search.sub_searches.clear
+		@search.searches << old_search
+		
+		start = @search.start
+		until(start > @search.end) do
+			Resque.enqueue(ExpediaSearch, @search.id, start.to_s)
+			start = start + 1.day
+		end
 
 		redirect_to @search
 	end
