@@ -8,11 +8,12 @@
 			<strong><%= (sub_search.end.to_date - sub_search.start.to_date).to_i %> Days</strong>
 
 			<div class="pull-right">
-				<strong><%= number_to_currency sub_search.min_price, precision: 0 %> - <%= number_to_currency sub_search.max_price, precision: 0 %> <%= @currency %></strong>
+				<strong>(Direct: <%= number_to_currency sub_search.min_direct_price, precision: 0 %> - <%= number_to_currency sub_search.max_direct_price, precision: 0 %>)</strong>
+				<strong>(<%= number_to_currency sub_search.min_price, precision: 0 %> - <%= number_to_currency sub_search.max_price, precision: 0 %>) <%= @currency %></strong>
 			</div>
 		</div>
 		<div class="panel-body">
-			<% sub_search.flights.sort_by(&:price).each do |flight| %>
+			<% sub_search.flights.each do |flight| %>
 			<div class="panel panel-default">
 			  	<div class="panel-heading">
 			  		<strong>

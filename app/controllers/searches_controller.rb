@@ -58,7 +58,7 @@ class SearchesController < ApplicationController
 
 	def show
 		@search = Search.find(params[:id])
-		@search.sub_searches.sort! { |x, y| x.min_price <=> y.min_price }
+		@search.sub_searches.sort! { |x, y| x.min_direct_price <=> y.min_direct_price }
 
 		@currency = "USD"
 	end

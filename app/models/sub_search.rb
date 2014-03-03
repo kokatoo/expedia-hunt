@@ -1,5 +1,5 @@
 class SubSearch < ActiveRecord::Base
-  attr_accessible :start, :end, :source, :destination, :min_price, :max_price
+  attr_accessible :start, :end, :source, :destination, :min_price, :max_price, :min_direct_price, :max_direct_price
 
   belongs_to :search
   has_many :flights
@@ -69,7 +69,7 @@ class SubSearch < ActiveRecord::Base
 		json = JSON.load(open(url))
 
 		if json && json["searchResultsModel"]
-			json["searchResultsModel"]["offers"][0..6].each_with_index do |result, index|
+			json["searchResultsModel"]["offers"][0..15].each_with_index do |result, index|
 				flight = load_flight(result, url)
 				load_timelines(flight, result)
 
