@@ -12,6 +12,10 @@ class Search < ActiveRecord::Base
 		search_dup = search.dup
 		search_dup.version = search.version + 1
 
-		search_dup
+		search.sub_searches.each do |sub_search|
+			search_dup.sub_searches << sub_search
+		end
+
+		search
 	end
 end

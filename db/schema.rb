@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140301162546) do
+ActiveRecord::Schema.define(:version => 20140303130252) do
 
   create_table "flights", :force => true do |t|
     t.string   "url",                                         :null => false
@@ -31,17 +31,18 @@ ActiveRecord::Schema.define(:version => 20140301162546) do
   add_index "flights", ["sub_search_id"], :name => "index_flights_on_sub_search_id"
 
   create_table "searches", :force => true do |t|
-    t.string   "title",                      :null => false
-    t.datetime "start",                      :null => false
-    t.integer  "min",                        :null => false
-    t.integer  "max",                        :null => false
+    t.string   "title",                                                         :null => false
+    t.datetime "start",                                                         :null => false
+    t.integer  "min",                                                           :null => false
+    t.integer  "max",                                                           :null => false
     t.string   "source"
     t.string   "destination"
-    t.datetime "created_at",                 :null => false
-    t.datetime "updated_at",                 :null => false
+    t.datetime "created_at",                                                    :null => false
+    t.datetime "updated_at",                                                    :null => false
     t.datetime "end"
-    t.integer  "version",     :default => 0
+    t.integer  "version",                                        :default => 0
     t.integer  "search_id"
+    t.decimal  "avg_direct_price", :precision => 8, :scale => 2
   end
 
   add_index "searches", ["search_id"], :name => "index_searches_on_search_id"
