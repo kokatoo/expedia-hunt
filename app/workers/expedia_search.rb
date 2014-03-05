@@ -3,11 +3,31 @@ require 'resque/errors'
 class ExpediaSearch
 	@queue = :expedia_queue
 
+	def self.compute_avg(search)
+		n = 0
+		total = 0
+		search.sub_searches.each do |sub_search|
+			sub_search.flights.each do |flight|
+				if flight.price && flight.timelines.size == 1
+					total += flight.price
+					n += 1
+				end
+			end
+		end
+
+		if n != 0
+			total.to_i / n
+		else
+			nil
+		end
+	end
+
 	def self.perform(search_id, start)
 
 		search = Search.find(search_id)
 		start = Date.parse(start)
 		(search.min..search.max).each do |num|
+			next if (start + num.days) > search.end.to_date
 			sub_search = SubSearch.new()
 			sub_search.start = start
 			sub_search.end = start + num.days
@@ -42,6 +62,12 @@ class ExpediaSearch
 
 				search.sub_searches << sub_search
 			end
+		end
+
+		if search.avg_direct_price
+			search.avg_direct_price = (search.avg_direct_price + compute_avg(search)) / 2
+		else
+			search.avg_direct_price = compute_avg(search)
 		end
 
 		search.save!

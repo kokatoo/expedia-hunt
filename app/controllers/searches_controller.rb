@@ -42,11 +42,11 @@ class SearchesController < ApplicationController
 		@search = Search.find(params[:id])
 
 		old_search = Search.duplicate(@search)
-		old_search.save!
 
 		@search.sub_searches.clear
 		@search.searches << old_search
-		
+		@search.save!
+
 		start = @search.start
 		until(start > @search.end) do
 			Resque.enqueue(ExpediaSearch, @search.id, start.to_s)
@@ -59,10 +59,12 @@ class SearchesController < ApplicationController
 	def show
 		@search = Search.find(params[:id])
 		@search.sub_searches.sort! { |x, y| x.min_direct_price <=> y.min_direct_price }
-		@results = []
+		@avgs = []
+
 		@search.searches.each do |s|
-			@results << s.avg_direct_price
+			@avgs << s.avg_direct_price.to_f
 		end
+		@avgs << @search.avg_direct_price.to_f
 
 		@currency = "USD"
 	end

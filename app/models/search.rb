@@ -10,12 +10,15 @@ class Search < ActiveRecord::Base
 
 	def self.duplicate(search)
 		search_dup = search.dup
-		search_dup.version = search.version + 1
+		search.version += 1
 
 		search.sub_searches.each do |sub_search|
 			search_dup.sub_searches << sub_search
 		end
 
-		search
+		search.save!
+		search_dup.save!
+
+		search_dup
 	end
 end

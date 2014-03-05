@@ -2,7 +2,27 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 $ ->
-	# $(".datepicker").datepicker()
+	$("#container").highcharts({
+		chart: {
+			height: 300
+		},
+		title: {
+			text: "Direct Average Price"
+		},
+		xAxis: {
+			allowDecimals: false
+		},
+		yAxis: {
+			title: {
+				text: "Price $"
+			},
+			min: 0
+		},
+		series: [{
+			name: "Daily Average Direct Price",
+			data: $("#container").data("direct")
+			}]
+	})
 
 	$(".searches .list-group-item").hover (->
 		$(".search .list-group-item").removeClass("active")
