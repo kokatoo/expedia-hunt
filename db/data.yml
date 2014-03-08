@@ -15,8 +15,8 @@ flights:
   - updated_at
   - sub_search_id
   records: 
-  - - 34915
-    - http://www.expedia.com/Flight-Search-Outbound?c=ee9d756c-3431-44ff-b612-d4dcd00b8899&
+  - - 35075
+    - http://www.expedia.com/Flight-Search-Outbound?c=092d5cc5-01d6-417d-9e66-f21c419c4e48&
     - 1121
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -24,11 +24,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:31:54.071808'
-    - '2014-03-08 09:31:54.375737'
-    - 2506
-  - - 34916
-    - http://www.expedia.com/Flight-Search-Outbound?c=ee9d756c-3431-44ff-b612-d4dcd00b8899&
+    - '2014-03-08 09:47:56.985160'
+    - '2014-03-08 09:47:57.309664'
+    - 2516
+  - - 35076
+    - http://www.expedia.com/Flight-Search-Outbound?c=092d5cc5-01d6-417d-9e66-f21c419c4e48&
     - 1151
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -36,11 +36,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:31:54.093251'
-    - '2014-03-08 09:31:54.377941'
-    - 2506
-  - - 34917
-    - http://www.expedia.com/Flight-Search-Outbound?c=ee9d756c-3431-44ff-b612-d4dcd00b8899&
+    - '2014-03-08 09:47:56.998596'
+    - '2014-03-08 09:47:57.310851'
+    - 2516
+  - - 35077
+    - http://www.expedia.com/Flight-Search-Outbound?c=092d5cc5-01d6-417d-9e66-f21c419c4e48&
     - 1188
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -48,11 +48,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:31:54.102911'
-    - '2014-03-08 09:31:54.379322'
-    - 2506
-  - - 34918
-    - http://www.expedia.com/Flight-Search-Outbound?c=ee9d756c-3431-44ff-b612-d4dcd00b8899&
+    - '2014-03-08 09:47:57.008246'
+    - '2014-03-08 09:47:57.311786'
+    - 2516
+  - - 35078
+    - http://www.expedia.com/Flight-Search-Outbound?c=092d5cc5-01d6-417d-9e66-f21c419c4e48&
     - 1211
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -60,11 +60,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:31:54.118383'
-    - '2014-03-08 09:31:54.380578'
-    - 2506
-  - - 34919
-    - http://www.expedia.com/Flight-Search-Outbound?c=ee9d756c-3431-44ff-b612-d4dcd00b8899&
+    - '2014-03-08 09:47:57.022802'
+    - '2014-03-08 09:47:57.312497'
+    - 2516
+  - - 35079
+    - http://www.expedia.com/Flight-Search-Outbound?c=092d5cc5-01d6-417d-9e66-f21c419c4e48&
     - 1211
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -72,11 +72,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:31:54.171124'
-    - '2014-03-08 09:31:54.381723'
-    - 2506
-  - - 34931
-    - http://www.expedia.com/Flight-Search-Outbound?c=23afac53-49ee-4cd3-90be-74a8f00dcc4c&
+    - '2014-03-08 09:47:57.039711'
+    - '2014-03-08 09:47:57.313136'
+    - 2516
+  - - 35091
+    - http://www.expedia.com/Flight-Search-Outbound?c=18ffeb41-749f-43d8-8056-77e6f5326bc6&
     - 1121
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -84,11 +84,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:05.923896'
-    - '2014-03-08 09:32:06.160305'
-    - 2507
-  - - 34932
-    - http://www.expedia.com/Flight-Search-Outbound?c=23afac53-49ee-4cd3-90be-74a8f00dcc4c&
+    - '2014-03-08 09:48:02.177248'
+    - '2014-03-08 09:48:02.423056'
+    - 2517
+  - - 35092
+    - http://www.expedia.com/Flight-Search-Outbound?c=18ffeb41-749f-43d8-8056-77e6f5326bc6&
     - 1151
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -96,11 +96,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:05.934030'
-    - '2014-03-08 09:32:06.161125'
-    - 2507
-  - - 34933
-    - http://www.expedia.com/Flight-Search-Outbound?c=23afac53-49ee-4cd3-90be-74a8f00dcc4c&
+    - '2014-03-08 09:48:02.190193'
+    - '2014-03-08 09:48:02.423954'
+    - 2517
+  - - 35093
+    - http://www.expedia.com/Flight-Search-Outbound?c=18ffeb41-749f-43d8-8056-77e6f5326bc6&
     - 1188
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -108,11 +108,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:05.941179'
-    - '2014-03-08 09:32:06.162114'
-    - 2507
-  - - 34934
-    - http://www.expedia.com/Flight-Search-Outbound?c=23afac53-49ee-4cd3-90be-74a8f00dcc4c&
+    - '2014-03-08 09:48:02.202372'
+    - '2014-03-08 09:48:02.424923'
+    - 2517
+  - - 35094
+    - http://www.expedia.com/Flight-Search-Outbound?c=18ffeb41-749f-43d8-8056-77e6f5326bc6&
     - 1211
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -120,11 +120,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:05.954237'
-    - '2014-03-08 09:32:06.163347'
-    - 2507
-  - - 34935
-    - http://www.expedia.com/Flight-Search-Outbound?c=23afac53-49ee-4cd3-90be-74a8f00dcc4c&
+    - '2014-03-08 09:48:02.222769'
+    - '2014-03-08 09:48:02.425714'
+    - 2517
+  - - 35095
+    - http://www.expedia.com/Flight-Search-Outbound?c=18ffeb41-749f-43d8-8056-77e6f5326bc6&
     - 1211
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -132,11 +132,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:05.968887'
-    - '2014-03-08 09:32:06.164283'
-    - 2507
-  - - 34947
-    - http://www.expedia.com/Flight-Search-Outbound?c=80cde388-6ccf-4062-8721-1287040e1f48&
+    - '2014-03-08 09:48:02.237123'
+    - '2014-03-08 09:48:02.426412'
+    - 2517
+  - - 35107
+    - http://www.expedia.com/Flight-Search-Outbound?c=641023ed-de9f-4499-a553-dbddf5f23e7e&
     - 1151
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -144,11 +144,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:22.305286'
-    - '2014-03-08 09:32:22.562551'
-    - 2508
-  - - 34948
-    - http://www.expedia.com/Flight-Search-Outbound?c=80cde388-6ccf-4062-8721-1287040e1f48&
+    - '2014-03-08 09:48:07.565685'
+    - '2014-03-08 09:48:07.878466'
+    - 2518
+  - - 35108
+    - http://www.expedia.com/Flight-Search-Outbound?c=641023ed-de9f-4499-a553-dbddf5f23e7e&
     - 1188
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -156,11 +156,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:22.312411'
-    - '2014-03-08 09:32:22.563400'
-    - 2508
-  - - 34949
-    - http://www.expedia.com/Flight-Search-Outbound?c=80cde388-6ccf-4062-8721-1287040e1f48&
+    - '2014-03-08 09:48:07.575672'
+    - '2014-03-08 09:48:07.879833'
+    - 2518
+  - - 35109
+    - http://www.expedia.com/Flight-Search-Outbound?c=641023ed-de9f-4499-a553-dbddf5f23e7e&
     - 1251
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -168,11 +168,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:22.325937'
-    - '2014-03-08 09:32:22.564224'
-    - 2508
-  - - 34950
-    - http://www.expedia.com/Flight-Search-Outbound?c=80cde388-6ccf-4062-8721-1287040e1f48&
+    - '2014-03-08 09:48:07.588555'
+    - '2014-03-08 09:48:07.881247'
+    - 2518
+  - - 35110
+    - http://www.expedia.com/Flight-Search-Outbound?c=641023ed-de9f-4499-a553-dbddf5f23e7e&
     - 1292
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -180,11 +180,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:22.341178'
-    - '2014-03-08 09:32:22.565331'
-    - 2508
-  - - 34951
-    - http://www.expedia.com/Flight-Search-Outbound?c=80cde388-6ccf-4062-8721-1287040e1f48&
+    - '2014-03-08 09:48:07.602492'
+    - '2014-03-08 09:48:07.882266'
+    - 2518
+  - - 35111
+    - http://www.expedia.com/Flight-Search-Outbound?c=641023ed-de9f-4499-a553-dbddf5f23e7e&
     - 1292
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -192,11 +192,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:22.356660'
-    - '2014-03-08 09:32:22.566296'
-    - 2508
-  - - 34963
-    - http://www.expedia.com/Flight-Search-Outbound?c=7b8f0e09-049d-4c29-a6f3-f301f778b8de&
+    - '2014-03-08 09:48:07.616366'
+    - '2014-03-08 09:48:07.883346'
+    - 2518
+  - - 35123
+    - http://www.expedia.com/Flight-Search-Outbound?c=1213762e-a5d1-4cec-903b-b4053a6e8b24&
     - 1121
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -204,11 +204,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:36.460898'
-    - '2014-03-08 09:32:36.702362'
-    - 2509
-  - - 34964
-    - http://www.expedia.com/Flight-Search-Outbound?c=7b8f0e09-049d-4c29-a6f3-f301f778b8de&
+    - '2014-03-08 09:48:11.353595'
+    - '2014-03-08 09:48:11.581849'
+    - 2519
+  - - 35124
+    - http://www.expedia.com/Flight-Search-Outbound?c=1213762e-a5d1-4cec-903b-b4053a6e8b24&
     - 1151
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -216,11 +216,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:36.472164'
-    - '2014-03-08 09:32:36.703246'
-    - 2509
-  - - 34965
-    - http://www.expedia.com/Flight-Search-Outbound?c=7b8f0e09-049d-4c29-a6f3-f301f778b8de&
+    - '2014-03-08 09:48:11.362845'
+    - '2014-03-08 09:48:11.582790'
+    - 2519
+  - - 35125
+    - http://www.expedia.com/Flight-Search-Outbound?c=1213762e-a5d1-4cec-903b-b4053a6e8b24&
     - 1188
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -228,11 +228,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:36.479910'
-    - '2014-03-08 09:32:36.704262'
-    - 2509
-  - - 34966
-    - http://www.expedia.com/Flight-Search-Outbound?c=7b8f0e09-049d-4c29-a6f3-f301f778b8de&
+    - '2014-03-08 09:48:11.370152'
+    - '2014-03-08 09:48:11.583811'
+    - 2519
+  - - 35126
+    - http://www.expedia.com/Flight-Search-Outbound?c=1213762e-a5d1-4cec-903b-b4053a6e8b24&
     - 1211
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -240,11 +240,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:36.492040'
-    - '2014-03-08 09:32:36.705049'
-    - 2509
-  - - 34967
-    - http://www.expedia.com/Flight-Search-Outbound?c=7b8f0e09-049d-4c29-a6f3-f301f778b8de&
+    - '2014-03-08 09:48:11.381950'
+    - '2014-03-08 09:48:11.584594'
+    - 2519
+  - - 35127
+    - http://www.expedia.com/Flight-Search-Outbound?c=1213762e-a5d1-4cec-903b-b4053a6e8b24&
     - 1211
     - USD
     - '2014-05-22 00:00:00.000000'
@@ -252,11 +252,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:36.506487'
-    - '2014-03-08 09:32:36.705767'
-    - 2509
-  - - 34979
-    - http://www.expedia.com/Flight-Search-Outbound?c=78a576e5-c478-40b4-b7ad-015c4cc5d444&
+    - '2014-03-08 09:48:11.395732'
+    - '2014-03-08 09:48:11.585338'
+    - 2519
+  - - 35139
+    - http://www.expedia.com/Flight-Search-Outbound?c=45f826ba-1782-43ed-99e1-43cf209a8585&
     - 1121
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -264,11 +264,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:49.874431'
-    - '2014-03-08 09:32:50.188501'
-    - 2510
-  - - 34980
-    - http://www.expedia.com/Flight-Search-Outbound?c=78a576e5-c478-40b4-b7ad-015c4cc5d444&
+    - '2014-03-08 09:48:15.564221'
+    - '2014-03-08 09:48:15.823274'
+    - 2520
+  - - 35140
+    - http://www.expedia.com/Flight-Search-Outbound?c=45f826ba-1782-43ed-99e1-43cf209a8585&
     - 1121
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -276,11 +276,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:49.898008'
-    - '2014-03-08 09:32:50.190364'
-    - 2510
-  - - 34981
-    - http://www.expedia.com/Flight-Search-Outbound?c=78a576e5-c478-40b4-b7ad-015c4cc5d444&
+    - '2014-03-08 09:48:15.583783'
+    - '2014-03-08 09:48:15.825114'
+    - 2520
+  - - 35141
+    - http://www.expedia.com/Flight-Search-Outbound?c=45f826ba-1782-43ed-99e1-43cf209a8585&
     - 1151
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -288,11 +288,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:49.908311'
-    - '2014-03-08 09:32:50.191798'
-    - 2510
-  - - 34982
-    - http://www.expedia.com/Flight-Search-Outbound?c=78a576e5-c478-40b4-b7ad-015c4cc5d444&
+    - '2014-03-08 09:48:15.593181'
+    - '2014-03-08 09:48:15.826663'
+    - 2520
+  - - 35142
+    - http://www.expedia.com/Flight-Search-Outbound?c=45f826ba-1782-43ed-99e1-43cf209a8585&
     - 1188
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -300,11 +300,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:49.915974'
-    - '2014-03-08 09:32:50.193006'
-    - 2510
-  - - 34983
-    - http://www.expedia.com/Flight-Search-Outbound?c=78a576e5-c478-40b4-b7ad-015c4cc5d444&
+    - '2014-03-08 09:48:15.601329'
+    - '2014-03-08 09:48:15.827936'
+    - 2520
+  - - 35143
+    - http://www.expedia.com/Flight-Search-Outbound?c=45f826ba-1782-43ed-99e1-43cf209a8585&
     - 1188
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -312,11 +312,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:49.922969'
-    - '2014-03-08 09:32:50.194394'
-    - 2510
-  - - 34984
-    - http://www.expedia.com/Flight-Search-Outbound?c=78a576e5-c478-40b4-b7ad-015c4cc5d444&
+    - '2014-03-08 09:48:15.608477'
+    - '2014-03-08 09:48:15.829648'
+    - 2520
+  - - 35144
+    - http://www.expedia.com/Flight-Search-Outbound?c=45f826ba-1782-43ed-99e1-43cf209a8585&
     - 1211
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -324,11 +324,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:32:49.936873'
-    - '2014-03-08 09:32:50.195317'
-    - 2510
-  - - 34995
-    - http://www.expedia.com/Flight-Search-Outbound?c=13d7d4f7-9291-4a30-bafc-d16246a5a12b&
+    - '2014-03-08 09:48:15.620436'
+    - '2014-03-08 09:48:15.831079'
+    - 2520
+  - - 35155
+    - http://www.expedia.com/Flight-Search-Outbound?c=ea150a7d-137d-41cc-bbae-90644bb22dbb&
     - 1151
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -336,11 +336,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:04.226210'
-    - '2014-03-08 09:33:04.494346'
-    - 2511
-  - - 34996
-    - http://www.expedia.com/Flight-Search-Outbound?c=13d7d4f7-9291-4a30-bafc-d16246a5a12b&
+    - '2014-03-08 09:48:19.645211'
+    - '2014-03-08 09:48:19.893077'
+    - 2521
+  - - 35156
+    - http://www.expedia.com/Flight-Search-Outbound?c=ea150a7d-137d-41cc-bbae-90644bb22dbb&
     - 1188
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -348,11 +348,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:04.234282'
-    - '2014-03-08 09:33:04.495581'
-    - 2511
-  - - 34997
-    - http://www.expedia.com/Flight-Search-Outbound?c=13d7d4f7-9291-4a30-bafc-d16246a5a12b&
+    - '2014-03-08 09:48:19.653037'
+    - '2014-03-08 09:48:19.894406'
+    - 2521
+  - - 35157
+    - http://www.expedia.com/Flight-Search-Outbound?c=ea150a7d-137d-41cc-bbae-90644bb22dbb&
     - 1188
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -360,11 +360,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:04.241462'
-    - '2014-03-08 09:33:04.496667'
-    - 2511
-  - - 34998
-    - http://www.expedia.com/Flight-Search-Outbound?c=13d7d4f7-9291-4a30-bafc-d16246a5a12b&
+    - '2014-03-08 09:48:19.660057'
+    - '2014-03-08 09:48:19.895368'
+    - 2521
+  - - 35158
+    - http://www.expedia.com/Flight-Search-Outbound?c=ea150a7d-137d-41cc-bbae-90644bb22dbb&
     - 1251
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -372,11 +372,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:04.254186'
-    - '2014-03-08 09:33:04.497511'
-    - 2511
-  - - 34999
-    - http://www.expedia.com/Flight-Search-Outbound?c=13d7d4f7-9291-4a30-bafc-d16246a5a12b&
+    - '2014-03-08 09:48:19.671897'
+    - '2014-03-08 09:48:19.896129'
+    - 2521
+  - - 35159
+    - http://www.expedia.com/Flight-Search-Outbound?c=ea150a7d-137d-41cc-bbae-90644bb22dbb&
     - 1251
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -384,11 +384,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:04.268526'
-    - '2014-03-08 09:33:04.498304'
-    - 2511
-  - - 35000
-    - http://www.expedia.com/Flight-Search-Outbound?c=13d7d4f7-9291-4a30-bafc-d16246a5a12b&
+    - '2014-03-08 09:48:19.685768'
+    - '2014-03-08 09:48:19.896831'
+    - 2521
+  - - 35160
+    - http://www.expedia.com/Flight-Search-Outbound?c=ea150a7d-137d-41cc-bbae-90644bb22dbb&
     - 1308
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -396,11 +396,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:04.283591'
-    - '2014-03-08 09:33:04.499015'
-    - 2511
-  - - 35011
-    - http://www.expedia.com/Flight-Search-Outbound?c=5f6428a5-5adb-441a-83b6-c9fef2223de7&
+    - '2014-03-08 09:48:19.700224'
+    - '2014-03-08 09:48:19.897842'
+    - 2521
+  - - 35171
+    - http://www.expedia.com/Flight-Search-Outbound?c=c24c9366-8c29-480a-a94c-b2dc6cc66a41&
     - 1121
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -408,11 +408,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:18.435977'
-    - '2014-03-08 09:33:18.679370'
-    - 2512
-  - - 35012
-    - http://www.expedia.com/Flight-Search-Outbound?c=5f6428a5-5adb-441a-83b6-c9fef2223de7&
+    - '2014-03-08 09:48:24.370948'
+    - '2014-03-08 09:48:24.630399'
+    - 2522
+  - - 35172
+    - http://www.expedia.com/Flight-Search-Outbound?c=c24c9366-8c29-480a-a94c-b2dc6cc66a41&
     - 1121
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -420,11 +420,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:18.450436'
-    - '2014-03-08 09:33:18.680567'
-    - 2512
-  - - 35013
-    - http://www.expedia.com/Flight-Search-Outbound?c=5f6428a5-5adb-441a-83b6-c9fef2223de7&
+    - '2014-03-08 09:48:24.385420'
+    - '2014-03-08 09:48:24.631175'
+    - 2522
+  - - 35173
+    - http://www.expedia.com/Flight-Search-Outbound?c=c24c9366-8c29-480a-a94c-b2dc6cc66a41&
     - 1151
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -432,11 +432,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:18.459417'
-    - '2014-03-08 09:33:18.681765'
-    - 2512
-  - - 35014
-    - http://www.expedia.com/Flight-Search-Outbound?c=5f6428a5-5adb-441a-83b6-c9fef2223de7&
+    - '2014-03-08 09:48:24.394094'
+    - '2014-03-08 09:48:24.631960'
+    - 2522
+  - - 35174
+    - http://www.expedia.com/Flight-Search-Outbound?c=c24c9366-8c29-480a-a94c-b2dc6cc66a41&
     - 1188
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -444,11 +444,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:18.467827'
-    - '2014-03-08 09:33:18.682830'
-    - 2512
-  - - 35015
-    - http://www.expedia.com/Flight-Search-Outbound?c=5f6428a5-5adb-441a-83b6-c9fef2223de7&
+    - '2014-03-08 09:48:24.401196'
+    - '2014-03-08 09:48:24.632595'
+    - 2522
+  - - 35175
+    - http://www.expedia.com/Flight-Search-Outbound?c=c24c9366-8c29-480a-a94c-b2dc6cc66a41&
     - 1188
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -456,11 +456,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:18.475671'
-    - '2014-03-08 09:33:18.683804'
-    - 2512
-  - - 35016
-    - http://www.expedia.com/Flight-Search-Outbound?c=5f6428a5-5adb-441a-83b6-c9fef2223de7&
+    - '2014-03-08 09:48:24.408380'
+    - '2014-03-08 09:48:24.633208'
+    - 2522
+  - - 35176
+    - http://www.expedia.com/Flight-Search-Outbound?c=c24c9366-8c29-480a-a94c-b2dc6cc66a41&
     - 1194
     - USD
     - '2014-05-23 00:00:00.000000'
@@ -468,11 +468,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:18.488309'
-    - '2014-03-08 09:33:18.684749'
-    - 2512
-  - - 35027
-    - http://www.expedia.com/Flight-Search-Outbound?c=0969d77e-b63e-43e6-b35c-7f8bc6159d8b&
+    - '2014-03-08 09:48:24.420707'
+    - '2014-03-08 09:48:24.633823'
+    - 2522
+  - - 35187
+    - http://www.expedia.com/Flight-Search-Outbound?c=fc3eaa88-452e-4225-8bdd-2816bd452d79&
     - 1151
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -480,11 +480,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:32.181507'
-    - '2014-03-08 09:33:32.445741'
-    - 2513
-  - - 35028
-    - http://www.expedia.com/Flight-Search-Outbound?c=0969d77e-b63e-43e6-b35c-7f8bc6159d8b&
+    - '2014-03-08 09:48:29.905927'
+    - '2014-03-08 09:48:30.154177'
+    - 2523
+  - - 35188
+    - http://www.expedia.com/Flight-Search-Outbound?c=fc3eaa88-452e-4225-8bdd-2816bd452d79&
     - 1188
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -492,11 +492,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:32.195718'
-    - '2014-03-08 09:33:32.447556'
-    - 2513
-  - - 35029
-    - http://www.expedia.com/Flight-Search-Outbound?c=0969d77e-b63e-43e6-b35c-7f8bc6159d8b&
+    - '2014-03-08 09:48:29.918821'
+    - '2014-03-08 09:48:30.155504'
+    - 2523
+  - - 35189
+    - http://www.expedia.com/Flight-Search-Outbound?c=fc3eaa88-452e-4225-8bdd-2816bd452d79&
     - 1188
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -504,11 +504,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:32.203551'
-    - '2014-03-08 09:33:32.448605'
-    - 2513
-  - - 35030
-    - http://www.expedia.com/Flight-Search-Outbound?c=0969d77e-b63e-43e6-b35c-7f8bc6159d8b&
+    - '2014-03-08 09:48:29.926354'
+    - '2014-03-08 09:48:30.156512'
+    - 2523
+  - - 35190
+    - http://www.expedia.com/Flight-Search-Outbound?c=fc3eaa88-452e-4225-8bdd-2816bd452d79&
     - 1226
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -516,11 +516,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:32.216695'
-    - '2014-03-08 09:33:32.449557'
-    - 2513
-  - - 35031
-    - http://www.expedia.com/Flight-Search-Outbound?c=0969d77e-b63e-43e6-b35c-7f8bc6159d8b&
+    - '2014-03-08 09:48:29.939547'
+    - '2014-03-08 09:48:30.157371'
+    - 2523
+  - - 35191
+    - http://www.expedia.com/Flight-Search-Outbound?c=fc3eaa88-452e-4225-8bdd-2816bd452d79&
     - 1308
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -528,11 +528,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:32.234396'
-    - '2014-03-08 09:33:32.450934'
-    - 2513
-  - - 35032
-    - http://www.expedia.com/Flight-Search-Outbound?c=0969d77e-b63e-43e6-b35c-7f8bc6159d8b&
+    - '2014-03-08 09:48:29.954931'
+    - '2014-03-08 09:48:30.158119'
+    - 2523
+  - - 35192
+    - http://www.expedia.com/Flight-Search-Outbound?c=fc3eaa88-452e-4225-8bdd-2816bd452d79&
     - 1308
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -540,11 +540,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:32.249834'
-    - '2014-03-08 09:33:32.451843'
-    - 2513
-  - - 35043
-    - http://www.expedia.com/Flight-Search-Outbound?c=07b2dbca-a6b9-4a62-a80b-9935bb221213&
+    - '2014-03-08 09:48:29.968309'
+    - '2014-03-08 09:48:30.158847'
+    - 2523
+  - - 35203
+    - http://www.expedia.com/Flight-Search-Outbound?c=6ff23737-6fb8-4731-9527-e1f0790ac505&
     - 1151
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -552,11 +552,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:46.557837'
-    - '2014-03-08 09:33:46.800553'
-    - 2514
-  - - 35044
-    - http://www.expedia.com/Flight-Search-Outbound?c=07b2dbca-a6b9-4a62-a80b-9935bb221213&
+    - '2014-03-08 09:48:34.062192'
+    - '2014-03-08 09:48:34.293319'
+    - 2524
+  - - 35204
+    - http://www.expedia.com/Flight-Search-Outbound?c=6ff23737-6fb8-4731-9527-e1f0790ac505&
     - 1188
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -564,11 +564,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:46.565115'
-    - '2014-03-08 09:33:46.801798'
-    - 2514
-  - - 35045
-    - http://www.expedia.com/Flight-Search-Outbound?c=07b2dbca-a6b9-4a62-a80b-9935bb221213&
+    - '2014-03-08 09:48:34.070889'
+    - '2014-03-08 09:48:34.294223'
+    - 2524
+  - - 35205
+    - http://www.expedia.com/Flight-Search-Outbound?c=6ff23737-6fb8-4731-9527-e1f0790ac505&
     - 1188
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -576,11 +576,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:46.572861'
-    - '2014-03-08 09:33:46.803145'
-    - 2514
-  - - 35046
-    - http://www.expedia.com/Flight-Search-Outbound?c=07b2dbca-a6b9-4a62-a80b-9935bb221213&
+    - '2014-03-08 09:48:34.077993'
+    - '2014-03-08 09:48:34.295423'
+    - 2524
+  - - 35206
+    - http://www.expedia.com/Flight-Search-Outbound?c=6ff23737-6fb8-4731-9527-e1f0790ac505&
     - 1194
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -588,11 +588,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:46.585685'
-    - '2014-03-08 09:33:46.804517'
-    - 2514
-  - - 35047
-    - http://www.expedia.com/Flight-Search-Outbound?c=07b2dbca-a6b9-4a62-a80b-9935bb221213&
+    - '2014-03-08 09:48:34.090075'
+    - '2014-03-08 09:48:34.296457'
+    - 2524
+  - - 35207
+    - http://www.expedia.com/Flight-Search-Outbound?c=6ff23737-6fb8-4731-9527-e1f0790ac505&
     - 1194
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -600,11 +600,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:46.601226'
-    - '2014-03-08 09:33:46.806020'
-    - 2514
-  - - 35048
-    - http://www.expedia.com/Flight-Search-Outbound?c=07b2dbca-a6b9-4a62-a80b-9935bb221213&
+    - '2014-03-08 09:48:34.104462'
+    - '2014-03-08 09:48:34.297259'
+    - 2524
+  - - 35208
+    - http://www.expedia.com/Flight-Search-Outbound?c=6ff23737-6fb8-4731-9527-e1f0790ac505&
     - 1226
     - USD
     - '2014-05-24 00:00:00.000000'
@@ -612,11 +612,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:46.615719'
-    - '2014-03-08 09:33:46.807820'
-    - 2514
-  - - 35059
-    - http://www.expedia.com/Flight-Search-Outbound?c=07ddc866-1f31-421e-9d23-1f1944c3e054&
+    - '2014-03-08 09:48:34.118418'
+    - '2014-03-08 09:48:34.298031'
+    - 2524
+  - - 35219
+    - http://www.expedia.com/Flight-Search-Outbound?c=4ba0a4b8-ab2a-469f-8e5f-c0fd185490d0&
     - 1151
     - USD
     - '2014-05-25 00:00:00.000000'
@@ -624,11 +624,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:58.732042'
-    - '2014-03-08 09:33:58.990480'
-    - 2515
-  - - 35060
-    - http://www.expedia.com/Flight-Search-Outbound?c=07ddc866-1f31-421e-9d23-1f1944c3e054&
+    - '2014-03-08 09:48:38.342429'
+    - '2014-03-08 09:48:38.596502'
+    - 2525
+  - - 35220
+    - http://www.expedia.com/Flight-Search-Outbound?c=4ba0a4b8-ab2a-469f-8e5f-c0fd185490d0&
     - 1188
     - USD
     - '2014-05-25 00:00:00.000000'
@@ -636,11 +636,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:58.744604'
-    - '2014-03-08 09:33:58.991806'
-    - 2515
-  - - 35061
-    - http://www.expedia.com/Flight-Search-Outbound?c=07ddc866-1f31-421e-9d23-1f1944c3e054&
+    - '2014-03-08 09:48:38.353883'
+    - '2014-03-08 09:48:38.597851'
+    - 2525
+  - - 35221
+    - http://www.expedia.com/Flight-Search-Outbound?c=4ba0a4b8-ab2a-469f-8e5f-c0fd185490d0&
     - 1226
     - USD
     - '2014-05-25 00:00:00.000000'
@@ -648,11 +648,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:58.757839'
-    - '2014-03-08 09:33:58.992846'
-    - 2515
-  - - 35062
-    - http://www.expedia.com/Flight-Search-Outbound?c=07ddc866-1f31-421e-9d23-1f1944c3e054&
+    - '2014-03-08 09:48:38.366820'
+    - '2014-03-08 09:48:38.598859'
+    - 2525
+  - - 35222
+    - http://www.expedia.com/Flight-Search-Outbound?c=4ba0a4b8-ab2a-469f-8e5f-c0fd185490d0&
     - 1227
     - USD
     - '2014-05-25 00:00:00.000000'
@@ -660,11 +660,11 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:58.773602'
-    - '2014-03-08 09:33:58.993687'
-    - 2515
-  - - 35063
-    - http://www.expedia.com/Flight-Search-Outbound?c=07ddc866-1f31-421e-9d23-1f1944c3e054&
+    - '2014-03-08 09:48:38.381569'
+    - '2014-03-08 09:48:38.599640'
+    - 2525
+  - - 35223
+    - http://www.expedia.com/Flight-Search-Outbound?c=4ba0a4b8-ab2a-469f-8e5f-c0fd185490d0&
     - 1227
     - USD
     - '2014-05-25 00:00:00.000000'
@@ -672,9 +672,9 @@ flights:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 
-    - '2014-03-08 09:33:58.789264'
-    - '2014-03-08 09:33:58.994428'
-    - 2515
+    - '2014-03-08 09:48:38.398276'
+    - '2014-03-08 09:48:38.600385'
+    - 2525
 
 ---
 timelines:
@@ -690,1156 +690,1156 @@ timelines:
   - created_at
   - updated_at
   records: 
-  - - 99563
+  - - 100025
     - Air China
     - '2014-05-22 12:55:00.000000'
     - '2014-05-23 11:15:00.000000'
     - false
     - Shanghai, China (SHA-All Airports)
     - Beijing, China (PEK-Capital Intl.)
-    - 34915
-    - '2014-03-08 09:31:54.057655'
-    - '2014-03-08 09:31:54.075765'
-  - - 99564
+    - 35075
+    - '2014-03-08 09:47:56.971023'
+    - '2014-03-08 09:47:56.987448'
+  - - 100026
     - 
     - '2014-05-23 11:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34915
-    - '2014-03-08 09:31:54.063871'
-    - '2014-03-08 09:31:54.079647'
-  - - 99565
+    - 35075
+    - '2014-03-08 09:47:56.979194'
+    - '2014-03-08 09:47:56.989519'
+  - - 100027
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34915
-    - '2014-03-08 09:31:54.067304'
-    - '2014-03-08 09:31:54.081122'
-  - - 99566
+    - 35075
+    - '2014-03-08 09:47:56.982067'
+    - '2014-03-08 09:47:56.990500'
+  - - 100028
     - Air Canada
     - '2014-05-22 06:55:00.000000'
     - '2014-05-22 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34916
-    - '2014-03-08 09:31:54.089092'
-    - '2014-03-08 09:31:54.095405'
-  - - 99567
+    - 35076
+    - '2014-03-08 09:47:56.996081'
+    - '2014-03-08 09:47:57.000765'
+  - - 100029
     - China Eastern Airlines
     - '2014-05-22 04:30:00.000000'
     - '2014-05-22 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34917
-    - '2014-03-08 09:31:54.100034'
-    - '2014-03-08 09:31:54.105367'
-  - - 99568
+    - 35077
+    - '2014-03-08 09:47:57.005431'
+    - '2014-03-08 09:47:57.009776'
+  - - 100030
     - Air China
     - '2014-05-22 07:55:00.000000'
     - '2014-05-22 10:15:00.000000'
     - false
     - Shanghai, China (SHA-All Airports)
     - Beijing, China (PEK-Capital Intl.)
-    - 34918
-    - '2014-03-08 09:31:54.109411'
-    - '2014-03-08 09:31:54.119743'
-  - - 99569
+    - 35078
+    - '2014-03-08 09:47:57.013521'
+    - '2014-03-08 09:47:57.024292'
+  - - 100031
     - 
     - '2014-05-22 10:15:00.000000'
     - '2014-05-22 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34918
-    - '2014-03-08 09:31:54.113034'
-    - '2014-03-08 09:31:54.120801'
-  - - 99570
+    - 35078
+    - '2014-03-08 09:47:57.016822'
+    - '2014-03-08 09:47:57.025268'
+  - - 100032
     - Air China
     - '2014-05-22 04:00:00.000000'
     - '2014-05-22 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34918
-    - '2014-03-08 09:31:54.116057'
-    - '2014-03-08 09:31:54.121622'
-  - - 99571
+    - 35078
+    - '2014-03-08 09:47:57.020228'
+    - '2014-03-08 09:47:57.026333'
+  - - 100033
     - Air China
     - '2014-05-22 10:30:00.000000'
     - '2014-05-22 04:40:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34919
-    - '2014-03-08 09:31:54.125291'
-    - '2014-03-08 09:31:54.172738'
-  - - 99572
+    - 35079
+    - '2014-03-08 09:47:57.031190'
+    - '2014-03-08 09:47:57.041618'
+  - - 100034
     - 
     - '2014-05-22 04:40:00.000000'
     - '2014-05-22 06:50:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34919
-    - '2014-03-08 09:31:54.166122'
-    - '2014-03-08 09:31:54.174041'
-  - - 99573
+    - 35079
+    - '2014-03-08 09:47:57.034289'
+    - '2014-03-08 09:47:57.043067'
+  - - 100035
     - Air China
     - '2014-05-22 06:50:00.000000'
     - '2014-05-22 10:50:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34919
-    - '2014-03-08 09:31:54.168841'
-    - '2014-03-08 09:31:54.175178'
-  - - 99609
+    - 35079
+    - '2014-03-08 09:47:57.037113'
+    - '2014-03-08 09:47:57.044720'
+  - - 100071
     - Air China
     - '2014-05-22 12:55:00.000000'
     - '2014-05-23 11:15:00.000000'
     - false
     - Shanghai, China (SHA-All Airports)
     - Beijing, China (PEK-Capital Intl.)
-    - 34931
-    - '2014-03-08 09:32:05.913334'
-    - '2014-03-08 09:32:05.925119'
-  - - 99610
+    - 35091
+    - '2014-03-08 09:48:02.166228'
+    - '2014-03-08 09:48:02.178761'
+  - - 100072
     - 
     - '2014-05-23 11:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34931
-    - '2014-03-08 09:32:05.917646'
-    - '2014-03-08 09:32:05.926000'
-  - - 99611
+    - 35091
+    - '2014-03-08 09:48:02.169818'
+    - '2014-03-08 09:48:02.179814'
+  - - 100073
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34931
-    - '2014-03-08 09:32:05.921540'
-    - '2014-03-08 09:32:05.926811'
-  - - 99612
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35091
+    - '2014-03-08 09:48:02.174076'
+    - '2014-03-08 09:48:02.180848'
+  - - 100074
     - Air Canada
     - '2014-05-22 06:55:00.000000'
     - '2014-05-22 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34932
-    - '2014-03-08 09:32:05.931223'
-    - '2014-03-08 09:32:05.935281'
-  - - 99613
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35092
+    - '2014-03-08 09:48:02.185930'
+    - '2014-03-08 09:48:02.193218'
+  - - 100075
     - China Eastern Airlines
     - '2014-05-22 04:30:00.000000'
     - '2014-05-22 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34933
-    - '2014-03-08 09:32:05.938891'
-    - '2014-03-08 09:32:05.942435'
-  - - 99614
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35093
+    - '2014-03-08 09:48:02.199420'
+    - '2014-03-08 09:48:02.204772'
+  - - 100076
     - Air China
     - '2014-05-22 07:55:00.000000'
     - '2014-05-22 10:15:00.000000'
     - false
     - Shanghai, China (SHA-All Airports)
     - Beijing, China (PEK-Capital Intl.)
-    - 34934
-    - '2014-03-08 09:32:05.946760'
-    - '2014-03-08 09:32:05.955872'
-  - - 99615
+    - 35094
+    - '2014-03-08 09:48:02.211038'
+    - '2014-03-08 09:48:02.224097'
+  - - 100077
     - 
     - '2014-05-22 10:15:00.000000'
     - '2014-05-22 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34934
-    - '2014-03-08 09:32:05.949718'
-    - '2014-03-08 09:32:05.956782'
-  - - 99616
+    - 35094
+    - '2014-03-08 09:48:02.214531'
+    - '2014-03-08 09:48:02.224949'
+  - - 100078
     - Air China
     - '2014-05-22 04:00:00.000000'
     - '2014-05-22 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34934
-    - '2014-03-08 09:32:05.952171'
-    - '2014-03-08 09:32:05.957597'
-  - - 99617
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35094
+    - '2014-03-08 09:48:02.220214'
+    - '2014-03-08 09:48:02.225761'
+  - - 100079
     - Air China
     - '2014-05-22 10:30:00.000000'
     - '2014-05-22 04:40:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34935
-    - '2014-03-08 09:32:05.961232'
-    - '2014-03-08 09:32:05.970067'
-  - - 99618
+    - 35095
+    - '2014-03-08 09:48:02.229599'
+    - '2014-03-08 09:48:02.238266'
+  - - 100080
     - 
     - '2014-05-22 04:40:00.000000'
     - '2014-05-22 06:50:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34935
-    - '2014-03-08 09:32:05.963759'
-    - '2014-03-08 09:32:05.970848'
-  - - 99619
+    - 35095
+    - '2014-03-08 09:48:02.232418'
+    - '2014-03-08 09:48:02.239174'
+  - - 100081
     - Air China
     - '2014-05-22 06:50:00.000000'
     - '2014-05-22 10:50:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34935
-    - '2014-03-08 09:32:05.966407'
-    - '2014-03-08 09:32:05.971607'
-  - - 99655
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35095
+    - '2014-03-08 09:48:02.235028'
+    - '2014-03-08 09:48:02.240055'
+  - - 100117
     - Air Canada
     - '2014-05-22 06:55:00.000000'
     - '2014-05-22 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34947
-    - '2014-03-08 09:32:22.302806'
-    - '2014-03-08 09:32:22.306455'
-  - - 99656
+    - 35107
+    - '2014-03-08 09:48:07.562632'
+    - '2014-03-08 09:48:07.567554'
+  - - 100118
     - China Eastern Airlines
     - '2014-05-22 04:30:00.000000'
     - '2014-05-22 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34948
-    - '2014-03-08 09:32:22.310081'
-    - '2014-03-08 09:32:22.313574'
-  - - 99657
+    - 35108
+    - '2014-03-08 09:48:07.572371'
+    - '2014-03-08 09:48:07.577473'
+  - - 100119
     - Air China
     - '2014-05-22 12:55:00.000000'
     - '2014-05-23 11:15:00.000000'
     - false
     - Shanghai, China (SHA-Hongqiao Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34949
-    - '2014-03-08 09:32:22.317891'
-    - '2014-03-08 09:32:22.327135'
-  - - 99658
+    - 35109
+    - '2014-03-08 09:48:07.581139'
+    - '2014-03-08 09:48:07.590024'
+  - - 100120
     - 
     - '2014-05-23 11:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34949
-    - '2014-03-08 09:32:22.320854'
-    - '2014-03-08 09:32:22.327887'
-  - - 99659
+    - 35109
+    - '2014-03-08 09:48:07.583678'
+    - '2014-03-08 09:48:07.590857'
+  - - 100121
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
     - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34949
-    - '2014-03-08 09:32:22.323604'
-    - '2014-03-08 09:32:22.328811'
-  - - 99660
+    - 35109
+    - '2014-03-08 09:48:07.586231'
+    - '2014-03-08 09:48:07.591677'
+  - - 100122
     - China Southern Airlines
     - '2014-05-22 08:45:00.000000'
     - '2014-05-22 15:05:00.000000'
     - false
     - Shanghai, China (SHA-Hongqiao Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 34950
-    - '2014-03-08 09:32:22.333187'
-    - '2014-03-08 09:32:22.342483'
-  - - 99661
+    - 35110
+    - '2014-03-08 09:48:07.595075'
+    - '2014-03-08 09:48:07.603617'
+  - - 100123
     - 
     - '2014-05-22 15:05:00.000000'
     - '2014-05-22 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 34950
-    - '2014-03-08 09:32:22.336167'
-    - '2014-03-08 09:32:22.343598'
-  - - 99662
+    - 35110
+    - '2014-03-08 09:48:07.597756'
+    - '2014-03-08 09:48:07.604332'
+  - - 100124
     - China Southern Airlines
     - '2014-05-22 05:00:00.000000'
     - '2014-05-22 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34950
-    - '2014-03-08 09:32:22.338941'
-    - '2014-03-08 09:32:22.345278'
-  - - 99663
+    - 35110
+    - '2014-03-08 09:48:07.600243'
+    - '2014-03-08 09:48:07.605319'
+  - - 100125
     - China Southern Airlines
     - '2014-05-22 07:45:00.000000'
     - '2014-05-22 10:05:00.000000'
     - false
     - Shanghai, China (SHA-Hongqiao Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 34951
-    - '2014-03-08 09:32:22.349373'
-    - '2014-03-08 09:32:22.359043'
-  - - 99664
+    - 35111
+    - '2014-03-08 09:48:07.609188'
+    - '2014-03-08 09:48:07.617516'
+  - - 100126
     - 
     - '2014-05-22 10:05:00.000000'
     - '2014-05-22 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 34951
-    - '2014-03-08 09:32:22.351914'
-    - '2014-03-08 09:32:22.360495'
-  - - 99665
+    - 35111
+    - '2014-03-08 09:48:07.611823'
+    - '2014-03-08 09:48:07.618240'
+  - - 100127
     - China Southern Airlines
     - '2014-05-22 05:00:00.000000'
     - '2014-05-22 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34951
-    - '2014-03-08 09:32:22.354339'
-    - '2014-03-08 09:32:22.362059'
-  - - 99703
+    - 35111
+    - '2014-03-08 09:48:07.614233'
+    - '2014-03-08 09:48:07.619062'
+  - - 100165
     - Air China
     - '2014-05-22 12:55:00.000000'
     - '2014-05-23 11:15:00.000000'
     - false
-    - Shanghai, China (SHA-All Airports)
+    - Shanghai, China (SHA-Hongqiao Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34963
-    - '2014-03-08 09:32:36.453039'
-    - '2014-03-08 09:32:36.462553'
-  - - 99704
+    - 35123
+    - '2014-03-08 09:48:11.343734'
+    - '2014-03-08 09:48:11.354785'
+  - - 100166
     - 
     - '2014-05-23 11:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34963
-    - '2014-03-08 09:32:36.456143'
-    - '2014-03-08 09:32:36.463704'
-  - - 99705
+    - 35123
+    - '2014-03-08 09:48:11.348448'
+    - '2014-03-08 09:48:11.356023'
+  - - 100167
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 34963
-    - '2014-03-08 09:32:36.458506'
-    - '2014-03-08 09:32:36.465045'
-  - - 99706
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35123
+    - '2014-03-08 09:48:11.351287'
+    - '2014-03-08 09:48:11.357174'
+  - - 100168
     - Air Canada
     - '2014-05-22 06:55:00.000000'
     - '2014-05-22 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 34964
-    - '2014-03-08 09:32:36.469672'
-    - '2014-03-08 09:32:36.473611'
-  - - 99707
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35124
+    - '2014-03-08 09:48:11.360740'
+    - '2014-03-08 09:48:11.363904'
+  - - 100169
     - China Eastern Airlines
     - '2014-05-22 04:30:00.000000'
     - '2014-05-22 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 34965
-    - '2014-03-08 09:32:36.477257'
-    - '2014-03-08 09:32:36.481080'
-  - - 99708
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35125
+    - '2014-03-08 09:48:11.367564'
+    - '2014-03-08 09:48:11.371316'
+  - - 100170
     - Air China
     - '2014-05-22 07:55:00.000000'
     - '2014-05-22 10:15:00.000000'
     - false
-    - Shanghai, China (SHA-All Airports)
+    - Shanghai, China (SHA-Hongqiao Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34966
-    - '2014-03-08 09:32:36.484601'
-    - '2014-03-08 09:32:36.493248'
-  - - 99709
+    - 35126
+    - '2014-03-08 09:48:11.374506'
+    - '2014-03-08 09:48:11.383167'
+  - - 100171
     - 
     - '2014-05-22 10:15:00.000000'
     - '2014-05-22 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34966
-    - '2014-03-08 09:32:36.487371'
-    - '2014-03-08 09:32:36.494031'
-  - - 99710
+    - 35126
+    - '2014-03-08 09:48:11.376938'
+    - '2014-03-08 09:48:11.383945'
+  - - 100172
     - Air China
     - '2014-05-22 04:00:00.000000'
     - '2014-05-22 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 34966
-    - '2014-03-08 09:32:36.489853'
-    - '2014-03-08 09:32:36.495062'
-  - - 99711
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35126
+    - '2014-03-08 09:48:11.379207'
+    - '2014-03-08 09:48:11.384794'
+  - - 100173
     - Air China
     - '2014-05-22 10:30:00.000000'
     - '2014-05-22 04:40:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34967
-    - '2014-03-08 09:32:36.499080'
-    - '2014-03-08 09:32:36.507628'
-  - - 99712
+    - 35127
+    - '2014-03-08 09:48:11.388138'
+    - '2014-03-08 09:48:11.396891'
+  - - 100174
     - 
     - '2014-05-22 04:40:00.000000'
     - '2014-05-22 06:50:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34967
-    - '2014-03-08 09:32:36.501776'
-    - '2014-03-08 09:32:36.508398'
-  - - 99713
+    - 35127
+    - '2014-03-08 09:48:11.390955'
+    - '2014-03-08 09:48:11.397717'
+  - - 100175
     - Air China
     - '2014-05-22 06:50:00.000000'
     - '2014-05-22 10:50:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 34967
-    - '2014-03-08 09:32:36.504202'
-    - '2014-03-08 09:32:36.509202'
-  - - 99749
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35127
+    - '2014-03-08 09:48:11.393519'
+    - '2014-03-08 09:48:11.398615'
+  - - 100211
     - Air China
     - '2014-05-23 07:55:00.000000'
     - '2014-05-23 10:15:00.000000'
     - false
-    - Shanghai, China (SHA-All Airports)
+    - Shanghai, China (SHA-Hongqiao Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34979
-    - '2014-03-08 09:32:49.861258'
-    - '2014-03-08 09:32:49.877912'
-  - - 99750
+    - 35139
+    - '2014-03-08 09:48:15.548995'
+    - '2014-03-08 09:48:15.567219'
+  - - 100212
     - 
     - '2014-05-23 10:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34979
-    - '2014-03-08 09:32:49.867036'
-    - '2014-03-08 09:32:49.880289'
-  - - 99751
+    - 35139
+    - '2014-03-08 09:48:15.557680'
+    - '2014-03-08 09:48:15.569115'
+  - - 100213
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34979
-    - '2014-03-08 09:32:49.870174'
-    - '2014-03-08 09:32:49.881419'
-  - - 99752
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35139
+    - '2014-03-08 09:48:15.560774'
+    - '2014-03-08 09:48:15.570024'
+  - - 100214
     - Air China
     - '2014-05-23 06:55:00.000000'
     - '2014-05-23 09:15:00.000000'
     - false
-    - Shanghai, China (SHA-All Airports)
+    - Shanghai, China (SHA-Hongqiao Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34980
-    - '2014-03-08 09:32:49.888184'
-    - '2014-03-08 09:32:49.899360'
-  - - 99753
+    - 35140
+    - '2014-03-08 09:48:15.576101'
+    - '2014-03-08 09:48:15.585060'
+  - - 100215
     - 
     - '2014-05-23 09:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34980
-    - '2014-03-08 09:32:49.891822'
-    - '2014-03-08 09:32:49.900649'
-  - - 99754
+    - 35140
+    - '2014-03-08 09:48:15.579041'
+    - '2014-03-08 09:48:15.586030'
+  - - 100216
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34980
-    - '2014-03-08 09:32:49.895116'
-    - '2014-03-08 09:32:49.901677'
-  - - 99755
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35140
+    - '2014-03-08 09:48:15.581410'
+    - '2014-03-08 09:48:15.586853'
+  - - 100217
     - Air Canada
     - '2014-05-23 06:55:00.000000'
     - '2014-05-23 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34981
-    - '2014-03-08 09:32:49.905915'
-    - '2014-03-08 09:32:49.909578'
-  - - 99756
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35141
+    - '2014-03-08 09:48:15.590764'
+    - '2014-03-08 09:48:15.594385'
+  - - 100218
     - China Eastern Airlines
     - '2014-05-23 14:50:00.000000'
     - '2014-05-23 10:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34982
-    - '2014-03-08 09:32:49.913701'
-    - '2014-03-08 09:32:49.917172'
-  - - 99757
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35142
+    - '2014-03-08 09:48:15.598855'
+    - '2014-03-08 09:48:15.602541'
+  - - 100219
     - China Eastern Airlines
     - '2014-05-23 04:30:00.000000'
     - '2014-05-23 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34983
-    - '2014-03-08 09:32:49.920652'
-    - '2014-03-08 09:32:49.924192'
-  - - 99758
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35143
+    - '2014-03-08 09:48:15.606145'
+    - '2014-03-08 09:48:15.609677'
+  - - 100220
     - Air China
     - '2014-05-23 10:55:00.000000'
     - '2014-05-23 05:15:00.000000'
     - false
-    - Shanghai, China (SHA-All Airports)
+    - Shanghai, China (SHA-Hongqiao Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34984
-    - '2014-03-08 09:32:49.928600'
-    - '2014-03-08 09:32:49.978271'
-  - - 99759
+    - 35144
+    - '2014-03-08 09:48:15.613270'
+    - '2014-03-08 09:48:15.621615'
+  - - 100221
     - 
     - '2014-05-23 05:15:00.000000'
     - '2014-05-23 06:50:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34984
-    - '2014-03-08 09:32:49.931449'
-    - '2014-03-08 09:32:49.979690'
-  - - 99760
+    - 35144
+    - '2014-03-08 09:48:15.615844'
+    - '2014-03-08 09:48:15.623049'
+  - - 100222
     - Air China
     - '2014-05-23 06:50:00.000000'
     - '2014-05-23 10:50:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 34984
-    - '2014-03-08 09:32:49.934123'
-    - '2014-03-08 09:32:49.980748'
-  - - 99797
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35144
+    - '2014-03-08 09:48:15.618266'
+    - '2014-03-08 09:48:15.623964'
+  - - 100259
     - Air Canada
     - '2014-05-23 06:55:00.000000'
     - '2014-05-23 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34995
-    - '2014-03-08 09:33:04.223744'
-    - '2014-03-08 09:33:04.227471'
-  - - 99798
+    - 35155
+    - '2014-03-08 09:48:19.642797'
+    - '2014-03-08 09:48:19.646473'
+  - - 100260
     - China Eastern Airlines
     - '2014-05-23 14:50:00.000000'
     - '2014-05-23 10:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34996
-    - '2014-03-08 09:33:04.231307'
-    - '2014-03-08 09:33:04.235511'
-  - - 99799
+    - 35156
+    - '2014-03-08 09:48:19.650738'
+    - '2014-03-08 09:48:19.654389'
+  - - 100261
     - China Eastern Airlines
     - '2014-05-23 04:30:00.000000'
     - '2014-05-23 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34997
-    - '2014-03-08 09:33:04.239195'
-    - '2014-03-08 09:33:04.242639'
-  - - 99800
+    - 35157
+    - '2014-03-08 09:48:19.657984'
+    - '2014-03-08 09:48:19.661104'
+  - - 100262
     - Air China
     - '2014-05-23 07:55:00.000000'
     - '2014-05-23 10:15:00.000000'
     - false
-    - Shanghai, China (SHA-Hongqiao Intl.)
+    - Shanghai, China (SHA-All Airports)
     - Beijing, China (PEK-Capital Intl.)
-    - 34998
-    - '2014-03-08 09:33:04.246222'
-    - '2014-03-08 09:33:04.255835'
-  - - 99801
+    - 35158
+    - '2014-03-08 09:48:19.664409'
+    - '2014-03-08 09:48:19.673037'
+  - - 100263
     - 
     - '2014-05-23 10:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34998
-    - '2014-03-08 09:33:04.248705'
-    - '2014-03-08 09:33:04.256810'
-  - - 99802
+    - 35158
+    - '2014-03-08 09:48:19.667069'
+    - '2014-03-08 09:48:19.673750'
+  - - 100264
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34998
-    - '2014-03-08 09:33:04.251691'
-    - '2014-03-08 09:33:04.257694'
-  - - 99803
+    - 35158
+    - '2014-03-08 09:48:19.669564'
+    - '2014-03-08 09:48:19.674521'
+  - - 100265
     - Air China
     - '2014-05-23 06:55:00.000000'
     - '2014-05-23 09:15:00.000000'
     - false
-    - Shanghai, China (SHA-Hongqiao Intl.)
+    - Shanghai, China (SHA-All Airports)
     - Beijing, China (PEK-Capital Intl.)
-    - 34999
-    - '2014-03-08 09:33:04.261178'
-    - '2014-03-08 09:33:04.270070'
-  - - 99804
+    - 35159
+    - '2014-03-08 09:48:19.678188'
+    - '2014-03-08 09:48:19.687498'
+  - - 100266
     - 
     - '2014-05-23 09:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 34999
-    - '2014-03-08 09:33:04.263770'
-    - '2014-03-08 09:33:04.271229'
-  - - 99805
+    - 35159
+    - '2014-03-08 09:48:19.680836'
+    - '2014-03-08 09:48:19.688664'
+  - - 100267
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 34999
-    - '2014-03-08 09:33:04.266220'
-    - '2014-03-08 09:33:04.272189'
-  - - 99806
+    - 35159
+    - '2014-03-08 09:48:19.683432'
+    - '2014-03-08 09:48:19.689585'
+  - - 100268
     - China Southern Airlines
     - '2014-05-23 08:45:00.000000'
     - '2014-05-23 15:05:00.000000'
     - false
-    - Shanghai, China (SHA-Hongqiao Intl.)
+    - Shanghai, China (SHA-All Airports)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35000
-    - '2014-03-08 09:33:04.275708'
-    - '2014-03-08 09:33:04.285485'
-  - - 99807
+    - 35160
+    - '2014-03-08 09:48:19.693251'
+    - '2014-03-08 09:48:19.701704'
+  - - 100269
     - 
     - '2014-05-23 15:05:00.000000'
     - '2014-05-23 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35000
-    - '2014-03-08 09:33:04.278412'
-    - '2014-03-08 09:33:04.286571'
-  - - 99808
+    - 35160
+    - '2014-03-08 09:48:19.695606'
+    - '2014-03-08 09:48:19.702816'
+  - - 100270
     - China Southern Airlines
     - '2014-05-23 05:00:00.000000'
     - '2014-05-23 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 35000
-    - '2014-03-08 09:33:04.281197'
-    - '2014-03-08 09:33:04.287797'
-  - - 99845
+    - 35160
+    - '2014-03-08 09:48:19.698160'
+    - '2014-03-08 09:48:19.703723'
+  - - 100307
     - Air China
     - '2014-05-23 07:55:00.000000'
     - '2014-05-23 10:15:00.000000'
     - false
-    - Shanghai, China (SHA-All Airports)
+    - Shanghai, China (SHA-Hongqiao Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 35011
-    - '2014-03-08 09:33:18.426665'
-    - '2014-03-08 09:33:18.437304'
-  - - 99846
+    - 35171
+    - '2014-03-08 09:48:24.361117'
+    - '2014-03-08 09:48:24.372188'
+  - - 100308
     - 
     - '2014-05-23 10:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 35011
-    - '2014-03-08 09:33:18.429531'
-    - '2014-03-08 09:33:18.438164'
-  - - 99847
+    - 35171
+    - '2014-03-08 09:48:24.366066'
+    - '2014-03-08 09:48:24.373225'
+  - - 100309
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35011
-    - '2014-03-08 09:33:18.432450'
-    - '2014-03-08 09:33:18.438968'
-  - - 99848
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35171
+    - '2014-03-08 09:48:24.368637'
+    - '2014-03-08 09:48:24.374560'
+  - - 100310
     - Air China
     - '2014-05-23 06:55:00.000000'
     - '2014-05-23 09:15:00.000000'
     - false
-    - Shanghai, China (SHA-All Airports)
+    - Shanghai, China (SHA-Hongqiao Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 35012
-    - '2014-03-08 09:33:18.442411'
-    - '2014-03-08 09:33:18.451631'
-  - - 99849
+    - 35172
+    - '2014-03-08 09:48:24.378013'
+    - '2014-03-08 09:48:24.386730'
+  - - 100311
     - 
     - '2014-05-23 09:15:00.000000'
     - '2014-05-23 04:00:00.000000'
     - true
     - Beijing, China (PEK-Capital Intl.)
     - Beijing, China (PEK-Capital Intl.)
-    - 35012
-    - '2014-03-08 09:33:18.445169'
-    - '2014-03-08 09:33:18.452399'
-  - - 99850
+    - 35172
+    - '2014-03-08 09:48:24.380538'
+    - '2014-03-08 09:48:24.387505'
+  - - 100312
     - Air China
     - '2014-05-23 04:00:00.000000'
     - '2014-05-23 08:00:00.000000'
     - false
     - Beijing, China (PEK-Capital Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35012
-    - '2014-03-08 09:33:18.448274'
-    - '2014-03-08 09:33:18.453230'
-  - - 99851
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35172
+    - '2014-03-08 09:48:24.382897'
+    - '2014-03-08 09:48:24.388406'
+  - - 100313
     - Air Canada
     - '2014-05-23 06:55:00.000000'
     - '2014-05-23 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35013
-    - '2014-03-08 09:33:18.456737'
-    - '2014-03-08 09:33:18.460664'
-  - - 99852
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35173
+    - '2014-03-08 09:48:24.391846'
+    - '2014-03-08 09:48:24.395187'
+  - - 100314
     - China Eastern Airlines
     - '2014-05-23 14:50:00.000000'
     - '2014-05-23 10:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35014
-    - '2014-03-08 09:33:18.465151'
-    - '2014-03-08 09:33:18.469675'
-  - - 99853
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35174
+    - '2014-03-08 09:48:24.398922'
+    - '2014-03-08 09:48:24.402324'
+  - - 100315
     - China Eastern Airlines
     - '2014-05-23 04:30:00.000000'
     - '2014-05-23 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35015
-    - '2014-03-08 09:33:18.473499'
-    - '2014-03-08 09:33:18.477010'
-  - - 99854
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35175
+    - '2014-03-08 09:48:24.405932'
+    - '2014-03-08 09:48:24.409591'
+  - - 100316
     - China Southern Airlines
     - '2014-05-23 08:45:00.000000'
     - '2014-05-23 15:05:00.000000'
     - false
-    - Shanghai, China (SHA-All Airports)
+    - Shanghai, China (SHA-Hongqiao Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35016
-    - '2014-03-08 09:33:18.480860'
-    - '2014-03-08 09:33:18.489464'
-  - - 99855
+    - 35176
+    - '2014-03-08 09:48:24.412889'
+    - '2014-03-08 09:48:24.422139'
+  - - 100317
     - 
     - '2014-05-23 15:05:00.000000'
     - '2014-05-23 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35016
-    - '2014-03-08 09:33:18.483475'
-    - '2014-03-08 09:33:18.490186'
-  - - 99856
+    - 35176
+    - '2014-03-08 09:48:24.415386'
+    - '2014-03-08 09:48:24.422916'
+  - - 100318
     - China Southern Airlines
     - '2014-05-23 05:00:00.000000'
     - '2014-05-23 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35176
+    - '2014-03-08 09:48:24.417850'
+    - '2014-03-08 09:48:24.423714'
+  - - 100353
+    - Air Canada
+    - '2014-05-24 06:55:00.000000'
+    - '2014-05-24 15:00:00.000000'
+    - false
+    - Shanghai, China (PVG-Pudong Intl.)
     - Vancouver, BC, Canada (YVR-All Airports)
-    - 35016
-    - '2014-03-08 09:33:18.486030'
-    - '2014-03-08 09:33:18.490976'
-  - - 99891
-    - Air Canada
-    - '2014-05-24 06:55:00.000000'
-    - '2014-05-24 15:00:00.000000'
-    - false
-    - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35027
-    - '2014-03-08 09:33:32.175281'
-    - '2014-03-08 09:33:32.183792'
-  - - 99892
+    - 35187
+    - '2014-03-08 09:48:29.899952'
+    - '2014-03-08 09:48:29.908252'
+  - - 100354
     - China Eastern Airlines
     - '2014-05-24 14:50:00.000000'
     - '2014-05-24 10:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35028
-    - '2014-03-08 09:33:32.192467'
-    - '2014-03-08 09:33:32.197185'
-  - - 99893
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35188
+    - '2014-03-08 09:48:29.915893'
+    - '2014-03-08 09:48:29.920124'
+  - - 100355
     - China Eastern Airlines
     - '2014-05-24 04:30:00.000000'
     - '2014-05-24 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35029
-    - '2014-03-08 09:33:32.201058'
-    - '2014-03-08 09:33:32.205124'
-  - - 99894
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35189
+    - '2014-03-08 09:48:29.924109'
+    - '2014-03-08 09:48:29.927775'
+  - - 100356
     - China Eastern Airlines
     - '2014-05-24 04:00:00.000000'
     - '2014-05-24 09:05:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - 35030
-    - '2014-03-08 09:33:32.208908'
-    - '2014-03-08 09:33:32.218090'
-  - - 99895
+    - 35190
+    - '2014-03-08 09:48:29.931368'
+    - '2014-03-08 09:48:29.940840'
+  - - 100357
     - 
     - '2014-05-24 09:05:00.000000'
     - '2014-05-24 04:55:00.000000'
     - true
     - Los Angeles, CA (LAX-Los Angeles Intl.)
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - 35030
-    - '2014-03-08 09:33:32.211596'
-    - '2014-03-08 09:33:32.218986'
-  - - 99896
+    - 35190
+    - '2014-03-08 09:48:29.934023'
+    - '2014-03-08 09:48:29.942177'
+  - - 100358
     - Alaska Airlines
     - '2014-05-24 04:55:00.000000'
     - '2014-05-24 07:50:00.000000'
     - false
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35030
-    - '2014-03-08 09:33:32.214301'
-    - '2014-03-08 09:33:32.220018'
-  - - 99897
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35190
+    - '2014-03-08 09:48:29.936752'
+    - '2014-03-08 09:48:29.943115'
+  - - 100359
     - China Southern Airlines
     - '2014-05-24 08:45:00.000000'
     - '2014-05-24 15:05:00.000000'
     - false
-    - Shanghai, China (SHA-Hongqiao Intl.)
+    - Shanghai, China (SHA-All Airports)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35031
-    - '2014-03-08 09:33:32.224018'
-    - '2014-03-08 09:33:32.235795'
-  - - 99898
+    - 35191
+    - '2014-03-08 09:48:29.946644'
+    - '2014-03-08 09:48:29.956096'
+  - - 100360
     - 
     - '2014-05-24 15:05:00.000000'
     - '2014-05-24 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35031
-    - '2014-03-08 09:33:32.228100'
-    - '2014-03-08 09:33:32.236898'
-  - - 99899
+    - 35191
+    - '2014-03-08 09:48:29.949801'
+    - '2014-03-08 09:48:29.956865'
+  - - 100361
     - China Southern Airlines
     - '2014-05-24 05:00:00.000000'
     - '2014-05-24 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35031
-    - '2014-03-08 09:33:32.231504'
-    - '2014-03-08 09:33:32.237904'
-  - - 99900
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35191
+    - '2014-03-08 09:48:29.952609'
+    - '2014-03-08 09:48:29.957680'
+  - - 100362
     - China Southern Airlines
     - '2014-05-24 07:45:00.000000'
     - '2014-05-24 10:05:00.000000'
     - false
-    - Shanghai, China (SHA-Hongqiao Intl.)
+    - Shanghai, China (SHA-All Airports)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35032
-    - '2014-03-08 09:33:32.241592'
-    - '2014-03-08 09:33:32.251114'
-  - - 99901
+    - 35192
+    - '2014-03-08 09:48:29.961040'
+    - '2014-03-08 09:48:29.969800'
+  - - 100363
     - 
     - '2014-05-24 10:05:00.000000'
     - '2014-05-24 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35032
-    - '2014-03-08 09:33:32.244627'
-    - '2014-03-08 09:33:32.251903'
-  - - 99902
+    - 35192
+    - '2014-03-08 09:48:29.963604'
+    - '2014-03-08 09:48:29.970749'
+  - - 100364
     - China Southern Airlines
     - '2014-05-24 05:00:00.000000'
     - '2014-05-24 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35032
-    - '2014-03-08 09:33:32.247228'
-    - '2014-03-08 09:33:32.252794'
-  - - 99935
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35192
+    - '2014-03-08 09:48:29.966031'
+    - '2014-03-08 09:48:29.971662'
+  - - 100397
     - Air Canada
     - '2014-05-24 06:55:00.000000'
     - '2014-05-24 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35043
-    - '2014-03-08 09:33:46.553614'
-    - '2014-03-08 09:33:46.559228'
-  - - 99936
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35203
+    - '2014-03-08 09:48:34.057346'
+    - '2014-03-08 09:48:34.063872'
+  - - 100398
     - China Eastern Airlines
     - '2014-05-24 14:50:00.000000'
     - '2014-05-24 10:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35044
-    - '2014-03-08 09:33:46.562834'
-    - '2014-03-08 09:33:46.566800'
-  - - 99937
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35204
+    - '2014-03-08 09:48:34.068007'
+    - '2014-03-08 09:48:34.072280'
+  - - 100399
     - China Eastern Airlines
     - '2014-05-24 04:30:00.000000'
     - '2014-05-24 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35045
-    - '2014-03-08 09:33:46.570513'
-    - '2014-03-08 09:33:46.573987'
-  - - 99938
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35205
+    - '2014-03-08 09:48:34.075804'
+    - '2014-03-08 09:48:34.079195'
+  - - 100400
     - China Southern Airlines
     - '2014-05-24 08:45:00.000000'
     - '2014-05-24 15:05:00.000000'
     - false
-    - Shanghai, China (SHA-Hongqiao Intl.)
+    - Shanghai, China (SHA-All Airports)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35046
-    - '2014-03-08 09:33:46.577744'
-    - '2014-03-08 09:33:46.587400'
-  - - 99939
+    - 35206
+    - '2014-03-08 09:48:34.082708'
+    - '2014-03-08 09:48:34.091488'
+  - - 100401
     - 
     - '2014-05-24 15:05:00.000000'
     - '2014-05-24 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35046
-    - '2014-03-08 09:33:46.580629'
-    - '2014-03-08 09:33:46.588684'
-  - - 99940
+    - 35206
+    - '2014-03-08 09:48:34.085089'
+    - '2014-03-08 09:48:34.092680'
+  - - 100402
     - China Southern Airlines
     - '2014-05-24 05:00:00.000000'
     - '2014-05-24 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35046
-    - '2014-03-08 09:33:46.583369'
-    - '2014-03-08 09:33:46.590166'
-  - - 99941
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35206
+    - '2014-03-08 09:48:34.087531'
+    - '2014-03-08 09:48:34.093562'
+  - - 100403
     - China Southern Airlines
     - '2014-05-24 07:45:00.000000'
     - '2014-05-24 10:05:00.000000'
     - false
-    - Shanghai, China (SHA-Hongqiao Intl.)
+    - Shanghai, China (SHA-All Airports)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35047
-    - '2014-03-08 09:33:46.593711'
-    - '2014-03-08 09:33:46.602456'
-  - - 99942
+    - 35207
+    - '2014-03-08 09:48:34.096978'
+    - '2014-03-08 09:48:34.105795'
+  - - 100404
     - 
     - '2014-05-24 10:05:00.000000'
     - '2014-05-24 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35047
-    - '2014-03-08 09:33:46.596232'
-    - '2014-03-08 09:33:46.603279'
-  - - 99943
+    - 35207
+    - '2014-03-08 09:48:34.099524'
+    - '2014-03-08 09:48:34.106596'
+  - - 100405
     - China Southern Airlines
     - '2014-05-24 05:00:00.000000'
     - '2014-05-24 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35047
-    - '2014-03-08 09:33:46.598776'
-    - '2014-03-08 09:33:46.604124'
-  - - 99944
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35207
+    - '2014-03-08 09:48:34.101951'
+    - '2014-03-08 09:48:34.107405'
+  - - 100406
     - China Eastern Airlines
     - '2014-05-24 04:00:00.000000'
     - '2014-05-24 09:05:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - 35048
-    - '2014-03-08 09:33:46.607638'
-    - '2014-03-08 09:33:46.616811'
-  - - 99945
+    - 35208
+    - '2014-03-08 09:48:34.110907'
+    - '2014-03-08 09:48:34.119597'
+  - - 100407
     - 
     - '2014-05-24 09:05:00.000000'
     - '2014-05-24 04:55:00.000000'
     - true
     - Los Angeles, CA (LAX-Los Angeles Intl.)
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - 35048
-    - '2014-03-08 09:33:46.610346'
-    - '2014-03-08 09:33:46.617549'
-  - - 99946
+    - 35208
+    - '2014-03-08 09:48:34.113299'
+    - '2014-03-08 09:48:34.120368'
+  - - 100408
     - Alaska Airlines
     - '2014-05-24 04:55:00.000000'
     - '2014-05-24 07:50:00.000000'
     - false
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
-    - 35048
-    - '2014-03-08 09:33:46.613550'
-    - '2014-03-08 09:33:46.618372'
-  - - 99979
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - 35208
+    - '2014-03-08 09:48:34.115683'
+    - '2014-03-08 09:48:34.121261'
+  - - 100441
     - Air Canada
     - '2014-05-25 06:55:00.000000'
     - '2014-05-25 15:00:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35059
-    - '2014-03-08 09:33:58.723329'
-    - '2014-03-08 09:33:58.735244'
-  - - 99980
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35219
+    - '2014-03-08 09:48:38.336295'
+    - '2014-03-08 09:48:38.344908'
+  - - 100442
     - China Eastern Airlines
     - '2014-05-25 04:30:00.000000'
     - '2014-05-25 08:10:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35060
-    - '2014-03-08 09:33:58.742116'
-    - '2014-03-08 09:33:58.746211'
-  - - 99981
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35220
+    - '2014-03-08 09:48:38.351494'
+    - '2014-03-08 09:48:38.355695'
+  - - 100443
     - China Eastern Airlines
     - '2014-05-25 04:00:00.000000'
     - '2014-05-25 09:05:00.000000'
     - false
     - Shanghai, China (PVG-Pudong Intl.)
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - 35061
-    - '2014-03-08 09:33:58.750183'
-    - '2014-03-08 09:33:58.759379'
-  - - 99982
+    - 35221
+    - '2014-03-08 09:48:38.359452'
+    - '2014-03-08 09:48:38.368203'
+  - - 100444
     - 
     - '2014-05-25 09:05:00.000000'
     - '2014-05-25 04:55:00.000000'
     - true
     - Los Angeles, CA (LAX-Los Angeles Intl.)
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - 35061
-    - '2014-03-08 09:33:58.752935'
-    - '2014-03-08 09:33:58.760216'
-  - - 99983
+    - 35221
+    - '2014-03-08 09:48:38.362075'
+    - '2014-03-08 09:48:38.368974'
+  - - 100445
     - Alaska Airlines
     - '2014-05-25 04:55:00.000000'
     - '2014-05-25 07:50:00.000000'
     - false
     - Los Angeles, CA (LAX-Los Angeles Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35061
-    - '2014-03-08 09:33:58.755501'
-    - '2014-03-08 09:33:58.761295'
-  - - 99984
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35221
+    - '2014-03-08 09:48:38.364586'
+    - '2014-03-08 09:48:38.369846'
+  - - 100446
     - China Southern Airlines
     - '2014-05-25 08:45:00.000000'
     - '2014-05-25 15:05:00.000000'
     - false
     - Shanghai, China (SHA-Hongqiao Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35062
-    - '2014-03-08 09:33:58.765274'
-    - '2014-03-08 09:33:58.775332'
-  - - 99985
+    - 35222
+    - '2014-03-08 09:48:38.373718'
+    - '2014-03-08 09:48:38.383283'
+  - - 100447
     - 
     - '2014-05-25 15:05:00.000000'
     - '2014-05-25 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35062
-    - '2014-03-08 09:33:58.768747'
-    - '2014-03-08 09:33:58.776213'
-  - - 99986
+    - 35222
+    - '2014-03-08 09:48:38.376358'
+    - '2014-03-08 09:48:38.384682'
+  - - 100448
     - China Southern Airlines
     - '2014-05-25 05:00:00.000000'
     - '2014-05-25 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35062
-    - '2014-03-08 09:33:58.771434'
-    - '2014-03-08 09:33:58.777198'
-  - - 99987
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35222
+    - '2014-03-08 09:48:38.379270'
+    - '2014-03-08 09:48:38.385671'
+  - - 100449
     - China Southern Airlines
     - '2014-05-25 07:45:00.000000'
     - '2014-05-25 10:05:00.000000'
     - false
     - Shanghai, China (SHA-Hongqiao Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35063
-    - '2014-03-08 09:33:58.781005'
-    - '2014-03-08 09:33:58.790510'
-  - - 99988
+    - 35223
+    - '2014-03-08 09:48:38.390271'
+    - '2014-03-08 09:48:38.399423'
+  - - 100450
     - 
     - '2014-05-25 10:05:00.000000'
     - '2014-05-25 05:00:00.000000'
     - true
     - Guangzhou, China (CAN-Baiyun Intl.)
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - 35063
-    - '2014-03-08 09:33:58.783729'
-    - '2014-03-08 09:33:58.791324'
-  - - 99989
+    - 35223
+    - '2014-03-08 09:48:38.393122'
+    - '2014-03-08 09:48:38.400200'
+  - - 100451
     - China Southern Airlines
     - '2014-05-25 05:00:00.000000'
     - '2014-05-25 10:15:00.000000'
     - false
     - Guangzhou, China (CAN-Baiyun Intl.)
-    - Vancouver, BC, Canada (YVR-All Airports)
-    - 35063
-    - '2014-03-08 09:33:58.786702'
-    - '2014-03-08 09:33:58.792197'
+    - Vancouver, BC, Canada (YVR-Vancouver Intl.)
+    - 35223
+    - '2014-03-08 09:48:38.395990'
+    - '2014-03-08 09:48:38.401049'
 
 ---
 sub_searches:
@@ -1857,122 +1857,122 @@ sub_searches:
   - min_direct_price
   - max_direct_price
   records: 
-  - - 2506
+  - - 2516
     - '2014-05-22 16:00:00.000000'
     - '2014-05-29 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:31:54.372204'
-    - '2014-03-08 09:31:54.386688'
+    - '2014-03-08 09:47:57.307467'
+    - '2014-03-08 09:47:57.317455'
     - 1121
     - 1211
     - 1151
     - 1188
-  - - 2507
+  - - 2517
     - '2014-05-22 16:00:00.000000'
     - '2014-05-30 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:32:06.159029'
-    - '2014-03-08 09:32:06.166712'
+    - '2014-03-08 09:48:02.421606'
+    - '2014-03-08 09:48:02.428339'
     - 1121
     - 1211
     - 1151
     - 1188
-  - - 2508
+  - - 2518
     - '2014-05-22 16:00:00.000000'
     - '2014-05-31 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:32:22.561247'
-    - '2014-03-08 09:32:22.568410'
+    - '2014-03-08 09:48:07.876331'
+    - '2014-03-08 09:48:07.885574'
     - 1151
     - 1292
     - 1151
     - 1188
-  - - 2509
+  - - 2519
     - '2014-05-22 16:00:00.000000'
     - '2014-06-01 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:32:36.700773'
-    - '2014-03-08 09:32:36.708313'
+    - '2014-03-08 09:48:11.580309'
+    - '2014-03-08 09:48:11.587458'
     - 1121
     - 1211
     - 1151
     - 1188
-  - - 2510
+  - - 2520
     - '2014-05-23 16:00:00.000000'
     - '2014-05-30 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:32:50.185605'
-    - '2014-03-08 09:32:50.199551'
+    - '2014-03-08 09:48:15.820716'
+    - '2014-03-08 09:48:15.835362'
     - 1121
     - 1211
     - 1151
     - 1188
-  - - 2511
+  - - 2521
     - '2014-05-23 16:00:00.000000'
     - '2014-05-31 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:33:04.492405'
-    - '2014-03-08 09:33:04.501366'
+    - '2014-03-08 09:48:19.891804'
+    - '2014-03-08 09:48:19.900242'
     - 1151
     - 1308
     - 1151
     - 1188
-  - - 2512
+  - - 2522
     - '2014-05-23 16:00:00.000000'
     - '2014-06-01 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:33:18.677809'
-    - '2014-03-08 09:33:18.687197'
+    - '2014-03-08 09:48:24.629226'
+    - '2014-03-08 09:48:24.635910'
     - 1121
     - 1194
     - 1151
     - 1188
-  - - 2513
+  - - 2523
     - '2014-05-24 16:00:00.000000'
     - '2014-05-31 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:33:32.442945'
-    - '2014-03-08 09:33:32.455991'
+    - '2014-03-08 09:48:30.151834'
+    - '2014-03-08 09:48:30.163213'
     - 1151
     - 1308
     - 1151
     - 1188
-  - - 2514
+  - - 2524
     - '2014-05-24 16:00:00.000000'
     - '2014-06-01 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:33:46.798848'
-    - '2014-03-08 09:33:46.810477'
+    - '2014-03-08 09:48:34.291971'
+    - '2014-03-08 09:48:34.300077'
     - 1151
     - 1226
     - 1151
     - 1188
-  - - 2515
+  - - 2525
     - '2014-05-25 16:00:00.000000'
     - '2014-06-01 16:00:00.000000'
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - 52
-    - '2014-03-08 09:33:58.988260'
-    - '2014-03-08 09:33:58.998620'
+    - '2014-03-08 09:48:38.594197'
+    - '2014-03-08 09:48:38.604502'
     - 1151
     - 1227
     - 1151
@@ -2003,11 +2003,11 @@ searches:
     - Shanghai, China (SHA-All Airports)
     - Vancouver, BC, Canada (YVR-All Airports)
     - '2014-03-04 15:28:43.135104'
-    - '2014-03-08 09:34:00.479606'
+    - '2014-03-08 09:48:39.987796'
     - '2014-06-02 00:00:00.000000'
-    - 116
+    - 117
     - 
-    - 1172.9970686438023
+    - 1172.997068881174
   - - 167
     - Shanghai-Vancouver
     - '2014-05-23 00:00:00.000000'
@@ -2034,3 +2034,16 @@ searches:
     - 115
     - 52
     - 1172.996582507388
+  - - 169
+    - Shanghai-Vancouver
+    - '2014-05-23 00:00:00.000000'
+    - 7
+    - 10
+    - Shanghai, China (SHA-All Airports)
+    - Vancouver, BC, Canada (YVR-All Airports)
+    - '2014-03-08 09:47:47.755444'
+    - '2014-03-08 09:47:48.088870'
+    - '2014-06-02 00:00:00.000000'
+    - 116
+    - 52
+    - 1172.997068643802
