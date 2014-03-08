@@ -45,13 +45,15 @@ class ExpediaSearch
 						others << flight
 					end
 				end
-				sub_search.flights.clear
+
 				sub_search.flights = others.take(3) + directs.take(3)
+				others.drop(3).map {|item| item.delete}
+				directs.drop(3).map {|item| item.delete}
 
 				direct_prices = directs.take(3).map(&:price)
 				other_prices = others.take(3).map(&:price)
-				prices = direct_prices + other_prices
 
+				prices = direct_prices + other_prices
 
 				sub_search.min_direct_price = direct_prices.min
 				sub_search.max_direct_price = direct_prices.max

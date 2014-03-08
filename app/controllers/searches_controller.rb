@@ -43,7 +43,7 @@ class SearchesController < ApplicationController
 
 		old_search = Search.duplicate(@search)
 
-		@search.sub_searches.clear
+		@search.sub_searches.delete_all
 		@search.searches << old_search
 		@search.save!
 

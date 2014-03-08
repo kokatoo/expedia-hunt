@@ -2,7 +2,7 @@ class SubSearch < ActiveRecord::Base
   attr_accessible :start, :end, :source, :destination, :min_price, :max_price, :min_direct_price, :max_direct_price
 
   belongs_to :search
-  has_many :flights
+  has_many :flights, dependent: :destroy
 
   def load_flight(result, url)
 		flight = Flight.new()
