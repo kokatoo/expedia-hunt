@@ -2,27 +2,28 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 $ ->
-	$("#container").highcharts({
-		chart: {
-			height: 300
-		},
-		title: {
-			text: "Direct Average Price"
-		},
-		xAxis: {
-			allowDecimals: false
-		},
-		yAxis: {
-			title: {
-				text: "Price $"
+	if $("#flights-chart").length > 0
+		$("#flights-chart").highcharts({
+			chart: {
+				height: 300
 			},
-			min: 0
-		},
-		series: [{
-			name: "Daily Average Direct Price",
-			data: $("#container").data("direct")
+			title: {
+				text: "Direct Average Price"
+			},
+			xAxis: {
+				allowDecimals: false
+			},
+			yAxis: {
+				title: {
+					text: "Price $"
+				},
+				min: 0
+			},
+			series: [{
+				name: "Daily Average Direct Price",
+				data: $("#flights-chart").data("direct")
 			}]
-	})
+		})
 
 	$(".searches .list-group-item").hover (->
 		$(".search .list-group-item").removeClass("active")
@@ -45,6 +46,7 @@ $ ->
 	$(".flights .panel-heading").click(->
 		$(this).siblings(".panel-body").toggle("show"))
 
+	# $(".datepicker").datepicker()
 
 	if $(".flights .panel-heading").size() > 0
 		$(".flights .panel-heading").first().click()

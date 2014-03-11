@@ -49,7 +49,7 @@ class SearchesController < ApplicationController
 
 		start = @search.start
 		until(start > @search.end) do
-			Resque.enqueue(ExpediaSearch, @search.id, start.to_s)
+			ExpediaSearch.enqueue(@search, start.to_s, @search.title.to_sym)
 			start = start + 1.day
 		end
 
@@ -58,13 +58,25 @@ class SearchesController < ApplicationController
 
 	def show
 		@search = Search.find(params[:id])
-		@search.sub_searches.sort! { |x, y| x.min_direct_price <=> y.min_direct_price }
+		@search.sub_searches.sort! do |x, y|
+			x_min = x.min_direct_price
+			y_min = y.min_direct_price
+			if x_min && y_min
+				x_min <=> y_min
+			elsif x_min
+				-1
+			else
+				1
+			end
+		end
 		@avgs = []
 
-		@search.searches.each do |s|
+		@search.searches.drop(1).each do |s|
 			@avgs << s.avg_direct_price.to_f
 		end
 		@avgs << @search.avg_direct_price.to_f
+		puts "========"
+		p @avgs
 
 		@currency = "USD"
 	end

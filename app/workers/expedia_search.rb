@@ -2,6 +2,19 @@ require 'resque/errors'
 
 class ExpediaSearch
 	@queue = :expedia_queue
+	@queue2 = :expedia_queue2
+
+	def self.enqueue(resource, start, queue)
+		Resque::Job.create(queue, self, resource.id, start)
+	end
+
+	# def self.select_queue(resource)
+	# 	if @queue.size > @queue2
+	# 		@queue2
+	# 	else
+	# 		@queue
+	# 	end
+	# end
 
 	def self.compute_avg(search)
 		n = 0
